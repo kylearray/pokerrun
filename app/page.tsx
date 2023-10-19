@@ -107,7 +107,7 @@ export default function Home() {
               best five-card poker hand possible. The more houses you visit, the
               more cards you collect, increasing your chances of winning. After
               3:00pm, submit your best hand, and if your hand ranks among the
-              top three, you’ll win a prize! It's a fun-filled day of exploring
+              top three, you&#39;ll win a prize! It&#39;s a fun-filled day of exploring
               homes and playing poker. See you there!
             </p>
           </div>
@@ -241,7 +241,7 @@ export default function Home() {
                 className={`${CeraCompact.className} font-light text-lg text-array-black pr-5 pt-4 leading-5 mr-24`}
               >
                 Feel free to ask us anything about the properties, the event, or
-                the home-buying process. We're here to assist you every step of
+                the home-buying process. We&#39;re here to assist you every step of
                 the way. Contact our dedicated agent, Michael, for personalized
                 guidance and expert advice.
               </p>
