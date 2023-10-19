@@ -34,7 +34,7 @@ function Footer() {
                 <a className="text-gray-600 hover:text-gray-800">Suite 306</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Coeur d'Alene, ID 83814</a>
+                <a className="text-gray-600 hover:text-gray-800">Coeur d&#39;Alene, ID 83814</a>
               </li>
             </nav>
           </div>

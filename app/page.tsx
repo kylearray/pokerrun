@@ -48,7 +48,7 @@ export default function Home() {
               >
                 Join us for a free house-hopping adventure! Collect cards, form
                 your best poker hand, and stand a chance to win fabulous prizes.
-                Don't miss the excitement – see you at the open houses!
+                Don&#39;t miss the excitement – see you at the open houses!
               </p>
               <div className="flex">
                 <div className="mt-4 h-7 w-32 bg-array-red hover:bg-red-300 duration-300 flex">
@@ -102,7 +102,7 @@ export default function Home() {
               className={`${CeraCompact.className} font-light text-white text-lg leading-6 text-center tracking-tight`}
             >
               Join our Poker Run event on October 28th from 12:00pm to
-              3:00pm—it's easy and free! Just visit the open houses listed
+              3:00pm—it&#39;s easy and free! Just visit the open houses listed
               below, collect a playing card at each house, and aim to make the
               best five-card poker hand possible. The more houses you visit, the
               more cards you collect, increasing your chances of winning. After
