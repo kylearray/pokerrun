@@ -71,3 +71,39 @@ const CCPro = localFont( {
     ]
 })
 export const CeraCompact = CCPro;
+
+const noBill = localFont( {
+    src: [
+        {
+            path: '/fonts/postnobillscolombo-light.ttf',
+            weight: '200',
+            style: 'normal',
+        },
+        {
+            path: '/fonts/postnobillscolombo-regular.ttf',
+            weight: '300',
+            style: 'normal',
+        },
+        {
+            path: '/fonts/postnobillscolombo-medium.ttf',
+            weight: '400',
+            style: 'normal',
+        },
+        {
+            path: '/fonts/postnobillscolombo-semibold.ttf',
+            weight: '500',
+            style: 'normal',
+        },
+        {
+            path: '/fonts/postnobillscolombo-bold.ttf',
+            weight: '700',
+            style: 'normal',
+        },
+        {
+            path: '/fonts/postnobillscolombo-extrabold.ttf',
+            weight: '900',
+            style: 'normal',
+        },
+    ]
+})
+export const Post = noBill;

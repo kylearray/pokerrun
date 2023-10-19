@@ -11,11 +11,11 @@ const Monst = Montserrat({
 
 function Header() {
     return (
-        <header className="bg-white flex justify-center min-w-full border-b-2">
+        <header className="bg-white flex justify-center min-w-full border-b-[1px]">
             <div className="flex items-center justify-between py-3 w-full max-w-[80rem] h-24 px-5 md:py-8 bg-white  ">
                 {/* <!-- logo - start --> */}
-                <a href="/" className="inline-flex items-center gap-2.5 text-2xl font-bold text-black md:text-3xl" aria-label="logo">
-                    <Image width={180} height={300} alt="Array Real Estate Logo" src="/static/images/logo_horizontal.png" />
+                <a href="https://www.arrayrealestate.com" className="inline-flex items-center gap-2.5 text-2xl font-bold text-black md:text-3xl" aria-label="logo">
+                    <Image width={180} height={44} alt="Array Real Estate Logo" src="/static/images/logo_horizontal.png" />
                 </a>
                 {/* <!-- logo - end --> */}
 
@@ -36,13 +36,13 @@ function Header() {
 
                 {/* <!-- buttons - start --> */}
                 <div className="-ml-8 hidden flex-col gap-2.5 px-6  sm:flex-row sm:justify-center lg:flex lg:justify-start">
-                    <a href="#" className={`${Monst.className}  tracking-wide inline-block  px-2  pt-2 text-center text-sm font-regular text-gray-500 outline-none transition duration-300 hover:text-gray-800  active:text-[#1b6ec896] md:text-base`}>Home</a>
+                    <a href="https://www.arrayrealestate.com" className={`${Monst.className}  tracking-wide inline-block  px-2  pt-2 text-center text-sm font-regular text-gray-500 outline-none transition duration-300 hover:text-gray-800  active:text-[#1b6ec896] md:text-base`}>Home</a>
 
-                    <a href="#" className={`${Monst.className}  tracking-wide inline-block  px-2  pt-2 text-center text-sm font-regular text-gray-500 outline-none transition duration-300 hover:text-gray-800  active:text-[#1b6ec896] md:text-base`}>About</a>
+                    <a href="https://www.arrayrealestate.com/about/" className={`${Monst.className}  tracking-wide inline-block  px-2  pt-2 text-center text-sm font-regular text-gray-500 outline-none transition duration-300 hover:text-gray-800  active:text-[#1b6ec896] md:text-base`}>About</a>
 
-                    <a href="#" className={`${Monst.className}  tracking-wide inline-block  px-2 pr-6 pt-2 text-center text-sm font-regular text-gray-500 outline-none transition duration-300 hover:text-gray-800  active:text-[#1b6ec896] md:text-base`}>Services</a>
+                    <a href="https://www.arrayrealestate.com/services/" className={`${Monst.className}  tracking-wide inline-block  px-2 pr-6 pt-2 text-center text-sm font-regular text-gray-500 outline-none transition duration-300 hover:text-gray-800  active:text-[#1b6ec896] md:text-base`}>Services</a>
 
-                    <a href="#" className={`${Monst.className} uppercase tracking-widest inline-block w-44  bg-[#1b6ec8] px-4 py-3 text-center text-xs font-medium text-white outline-none transition duration-400 hover:bg-[#1b6ec896] md:text-xs`}>Contact us</a>
+                    <a href="https://www.arrayrealestate.com/contact/" className={`${Monst.className} uppercase tracking-widest inline-block w-44  bg-[#1b6ec8] px-4 py-3 text-center text-xs font-medium text-white outline-none transition duration-400 hover:bg-[#1b6ec896] md:text-xs`}>Contact us</a>
                 </div>
 
                 <button type="button" className="inline-flex items-center gap-2  bg-[#1b6ec8] px-3 py-3 text-sm  font-semibold focus-visible:ring active:text-gray-700 md:text-base lg:hidden">
