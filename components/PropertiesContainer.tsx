@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import listings from "@/components/listings.js";
 import { CeraPro, CeraCompact } from "@/components/fonts";
+import Link from "next/link";
 
 function PropertiesContainer() {
   const [properties, setProperties] = useState(listings);
@@ -17,42 +18,34 @@ function PropertiesContainer() {
     return (
       <div
         key={item.Address}
-        className={`w-screen flex justify-center items-center ${backgroundColorClass} min-h-fit pb-10`}
+        className={`w-screen flex justify-center items-center ${backgroundColorClass} min-h-fit pb-4`}
       >
-        <div className="grid grid-cols-3 md:grid-cols-12 p-4 gap-2 mb-10 max-h-96 w-full max-w-[72rem] ">
+        <div className="grid grid-cols-1 lg:grid-cols-12 p-4 gap-2 mb-10  w-full max-w-[72rem] place-items-center">
           {/* Left side */}
-          <div className="col-span-12 lg:col-span-5 flex flex-col justify-center py-8 pl-10">
-            <div className="flex flex-col justify-center items-center w-full h-80 ">
+          <div className="col-span-1 lg:col-span-5 flex flex-col justify-center lg:py-8 lg:pl-10">
+
+            <div className="flex flex-col justify-center items-center w-full h-fit py-4 ">
               <br className="h-96"></br>
-              <div className="relative w-full h-full">
-                {/* <button className="absolute bottom-0 center-0 h-10 px-5 m-2 text-array-black transition-colors duration-200 bg-white rounded-sm focus:shadow-outline hover:bg-gray-200 z-30">
-                  View More
-                </button> */}
-                <Image
-                  className="absolute rounded-lg top-0 left-0 z-10 max-w-[400px] max-h-[267px] object-cover z-20"
-                  src={item.Photos[0]}
-                  width={400}
-                  height={267}
-                  alt="Image of house"
-                />
-                <Image
-                  className="absolute top-0 left-0 rotate-[-11deg] transform translate-x-[-2rem] translate-y-[-2rem] z-10"
-                  src="/static/images/Icons/Cloves.png"
-                  width={170}
-                  height={267}
-                  alt="Ace of Spades"
-                />
-              </div>
+              <Image
+                className=" rounded-lg object-cover order-last mr-12"
+                src={item.Header? item.Header : "/static/images/placeholder.jpg"}
+                width={400}
+                height={267}
+                alt="Image of house"
+              />
+
             </div>
+
             <p
-              className={`${CeraPro.className} font-light pb-5 mt-2 text-3xl text-center`}
+              className={`${CeraPro.className} font-light pb-5 lg:mt-2 text-3xl text-center`}
             >
               {item.Price}
             </p>
+
           </div>
 
           {/* Right Side */}
-          <div className="col-span-12 lg:col-span-7 ml-10 pl-3 flex py-8 ">
+          <div className="col-span-1 max-w-xl lg:col-span-7 lg:ml-10 lg:pl-3 flex lg:py-8 w-full">
             <div className="flex flex-col items-start">
               <h2 className={`${CeraPro.className} font-bold text-4xl`}>
                 {item.Address}
@@ -61,7 +54,7 @@ function PropertiesContainer() {
                 {item.Subaddress}
               </h3>
               <p
-                className={`${CeraCompact.className} font-light text-base pr-5 pt-4 leading-5`}
+                className={`${CeraCompact.className} font-light text-base lg:pr-5 pt-4 leading-5`}
               >
                 {item.MarketingRemarks}
               </p>
@@ -77,14 +70,14 @@ function PropertiesContainer() {
                     src="/static/images/Icons/bed.png"
                   />
                   <p
-                    className={`${CeraPro.className} font-light text-3xl pl-2 `}
+                    className={`${CeraPro.className} font-light text-2xl lg:text-3xl pl-2 `}
                   >
                     {item.Beds}
                   </p>
                 </div>
 
                 {/* Bathrooms */}
-                <div className="flex justify-center pl-12 items-center">
+                <div className="flex justify-center pl-7 items-center">
                   <Image
                     width={40}
                     height={40}
@@ -92,14 +85,14 @@ function PropertiesContainer() {
                     src="/static/images/Icons/bath.png"
                   />
                   <p
-                    className={`${CeraPro.className} font-light text-3xl pl-2 `}
+                    className={`${CeraPro.className} font-light text-2xl lg:text-3xl pl-2 `}
                   >
                     {item.Baths}
                   </p>
                 </div>
 
                 {/* Square Footage */}
-                <div className="flex justify-center pl-12 items-center">
+                <div className="flex justify-center pl-6 items-center">
                   <Image
                     width={40}
                     height={40}
@@ -107,16 +100,18 @@ function PropertiesContainer() {
                     src="/static/images/Icons/house.png"
                   />
                   <p
-                    className={`${CeraPro.className} font-light text-3xl pl-2 `}
+                    className={`${CeraPro.className} font-light text-2xl lg:text-3xl pl-2 `}
                   >
                     {item.SqFt}
                   </p>
                 </div>
               </div>
 
-              <button className="h-8 px-5 mt-8 text-array-black transition-colors duration-200 bg-white rounded-sm focus:shadow-outline hover:bg-gray-200 z-30">
-                View More
-              </button>
+              {item.Media ? <Link href={item.Media}> <button className="h-8 px-5 mt-8 text-array-black transition-colors duration-200 bg-white rounded-sm focus:shadow-outline hover:bg-gray-200 ">View More</button></Link>
+                :
+                <button className="h-8 px-5 mt-8 text-array-black transition-colors duration-200 bg-white rounded-sm focus:shadow-outline hover:bg-gray-200 ">View Pictures</button>
+              }
+
 
             </div>
           </div>

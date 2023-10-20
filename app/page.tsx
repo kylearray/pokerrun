@@ -11,8 +11,9 @@ export default function Home() {
         {/* Container, Only col-spans in here */}
         <div className="grid grid-cols-3 md:grid-cols-12 p-4 gap-2 w-full max-w-[72rem]">
           {/* Left Card Hero Image */}
-          <div className="col-span-4">
+          <div className="col-span-3 justify-center lg:col-span-4 flex">
             <Image
+              className="justify-center  w-36 md:w-[300px]"
               alt="stack of cards"
               src="/static/images/StackOfCards.png"
               width={300}
@@ -21,7 +22,7 @@ export default function Home() {
           </div>
 
           {/* Right side */}
-          <div className="col-span-6 h-full">
+          <div className="col-span-3 mt-8 md:mt-auto md:col-span-8 md:pl-8 h-full">
             <div className="flex flex-col justify-center h-full">
               <p className={`${CeraPro.className} font-light text-array-black`}>
                 <strong className="font-medium">Array Real Estate </strong>
@@ -77,11 +78,11 @@ export default function Home() {
       </div>
 
       {/* How To Play Section */}
-      <div id="how-to-play" className="w-screen flex justify-center items-center bg-array-red min-h-96">
+      <div id="how-to-play" className="w-screen flex justify-center items-center bg-array-red min-h-96 pt-6">
         <div className="grid grid-cols-3 md:grid-cols-12 p-4 gap-2 w-full max-w-[72rem] ">
           {/* Main Text */}
           <div className="col-span-12 flex justify-center pt-6">
-            <h2 className={`${Post.className} font-bold text-white text-7xl`}>
+            <h2 className={`${Post.className} font-bold text-white text-6xl lg:text-7xl`}>
               HOW TO PLAY
             </h2>
           </div>
@@ -89,6 +90,7 @@ export default function Home() {
           {/* Image */}
           <div className="col-span-12 flex justify-center">
             <Image
+              className="w-64 pt-4 lg:w-auto"
               width={500}
               height={207}
               alt="Spread of cards"
@@ -97,7 +99,7 @@ export default function Home() {
           </div>
 
           {/* Main Text */}
-          <div className="col-span-6 col-start-4 flex justify-center pt-8 pb-11">
+          <div className="col-span-12 md:col-span-10 md:col-start-2 lg:col-span-6 lg:col-start-4 flex justify-center pt-8 pb-11">
             <p
               className={`${CeraCompact.className} font-light text-white text-lg leading-6 text-center tracking-tight`}
             >
@@ -117,17 +119,19 @@ export default function Home() {
       {/* Prizes Section */}
       <div id="prizes" className="w-screen flex justify-center items-center bg-array-black min-h-96">
         <div className="grid grid-cols-3 md:grid-cols-12 p-4 gap-2 w-full max-w-[72rem] pb-24 ">
+          
           {/* Main Text */}
           <div className="col-span-12 flex justify-center pt-6">
-            <h2 className={`${Post.className} font-bold text-white text-7xl`}>
+            <h2 className={`${Post.className} font-bold text-white text-6xl lg:text-7xl`}>
               PRIZES
             </h2>
           </div>
 
           {/* Prizes Container */}
-          <div className="col-span-12 grid-cols-3 grid flex justify-center pt-10">
+          <div className="col-span-12 grid-cols-1 lg:grid-cols-3 grid justify-center items-center pt-10 place-items-center">
+
             {/* Second Place */}
-            <div className="col-span-1 mx-6 lg:mt-16">
+            <div className="col-span-1 max-w-sm mx-6 lg:mt-16 lg:pt-auto pt-8 justify-center ">
               <div className="w-full bg-[#ECF0FA] h-44 px-5 py-4 flex justify-center align-center">
                 <Image
                   className=""
@@ -153,7 +157,7 @@ export default function Home() {
             </div>
 
             {/* First Place */}
-            <div className="col-span-1 mx-6 order-first lg:order-none">
+            <div className="col-span-1 mx-6 order-first lg:order-none max-w-sm">
               <div className="w-full bg-[#FFE483] h-44 px-5 py-4 flex justify-center align-center">
                 <Image
                   className=""
@@ -179,7 +183,7 @@ export default function Home() {
             </div>
 
             {/* Third Place */}
-            <div className="col-span-1 mx-6 lg:mt-16">
+            <div className="col-span-1 mx-6 lg:mt-16 lg:pt-auto pt-8 max-w-sm">
               <div className="w-full bg-[#FF9C72] h-44 px-5 py-4 flex justify-center align-center">
                 <Image
                   className=""
@@ -224,21 +228,21 @@ export default function Home() {
       {/* Listing */}
       <PropertiesContainer />
 
-      {/* How To Play Section */}
+      {/* Contact Section */}
       <div
-        className={`w-screen flex justify-center items-center min-h-fit pt-10 bg-gray-200`}
+        className={`w-screen flex justify-center items-center min-h-fit pt-10 px-4 bg-gray-200`}
       >
-        <div className="grid grid-cols-3 md:grid-cols-12 p-4 gap-2 mb-10 max-h-96 w-full max-w-[72rem] ">
+        <div className="grid grid-cols-3 md:grid-cols-12 p-4 gap-2 mb-10 w-full max-w-[72rem] ">
           {/* Left side */}
           <div className="col-span-8 flex justify-center py-8  ">
             <div className="flex flex-col justify-center items-start w-full">
               <h2
-                className={`${CeraPro.className} font-bold text-7xl text-array-black mb-5`}
+                className={`${CeraPro.className} font-bold text-6xl lg:text-7xl text-array-black mb-5`}
               >
                 Questions?
               </h2>
               <p
-                className={`${CeraCompact.className} font-light text-lg text-array-black pr-5 pt-4 leading-5 mr-24`}
+                className={`${CeraCompact.className} w-full font-light text-base lg:text-lg text-array-black lg:pr-5 pt-4 leading-5 mr-24`}
               >
                 Feel free to ask us anything about the properties, the event, or
                 the home-buying process. We&#39;re here to assist you every step of
@@ -278,13 +282,13 @@ export default function Home() {
       </div>
 
 
-      {/* How To Play Section */}
+      {/* Rules Section */}
       <div id="how-to-play" className="w-screen flex justify-center items-center bg-array-red min-h-96">
-        <div className="grid grid-cols-3 md:grid-cols-12 p-4 gap-2 w-full max-w-[72rem] ">
+        <div className="grid grid-cols-12 p-4 gap-2 w-full max-w-[72rem] ">
           {/* Main Text */}
           <div className="col-span-6 col-start-4 flex justify-center pt-8 pb-11">
             <p
-              className={`${CeraCompact.className} font-light text-white text-sm leading-6 text-center tracking-tight`}
+              className={`${CeraCompact.className} w-full font-light text-white text-sm leading-6 text-center tracking-tight`}
             >
               Rules of Poker Run
             </p>

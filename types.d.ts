@@ -9,4 +9,5 @@ type PropertyDetails = {
     MarketingRemarks: string,
     Price: string | "N/A",
     Media: string | null,
+    Header: string,
 };

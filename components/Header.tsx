@@ -1,5 +1,6 @@
+'use client'
 import Image from 'next/image'
-import React from 'react'
+import React, {useState} from 'react'
 import { CeraPro, CeraCompact } from '@/components/fonts'
 import { Montserrat } from 'next/font/google'
 
@@ -9,7 +10,14 @@ const Monst = Montserrat({
     subsets: ['latin'],
 })
 
+const styles = {
+    open: `flex flex-col absolute`,
+    hiddenAway: `hidden`,
+}
+
 function Header() {
+    const [menuOpen, setMenuOpen] = useState(false);
+
     return (
         <header className="bg-white flex justify-center min-w-full border-b-[1px]">
             <div className="flex items-center justify-between py-3 w-full max-w-[80rem] h-24 px-5 md:py-8 bg-white  ">
@@ -45,12 +53,19 @@ function Header() {
                     <a href="https://www.arrayrealestate.com/contact/" className={`${Monst.className} uppercase tracking-widest inline-block w-44  bg-[#1b6ec8] px-4 py-3 text-center text-xs font-medium text-white outline-none transition duration-400 hover:bg-[#1b6ec896] md:text-xs`}>Contact us</a>
                 </div>
 
-                <button type="button" className="inline-flex items-center gap-2  bg-[#1b6ec8] px-3 py-3 text-sm  font-semibold focus-visible:ring active:text-gray-700 md:text-base lg:hidden">
+                <button onClick={() => { setMenuOpen(!menuOpen)}} type="button" className="inline-flex items-center gap-2  bg-[#1b6ec8] px-3 py-3 text-sm  font-semibold focus-visible:ring active:text-gray-700 md:text-base lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
                     </svg>
-
                 </button>
+
+                <div className={`${menuOpen ? styles.open : styles.hiddenAway} place-items-center pt-8 bg-array-black h-screen w-screen top-0 left-0`}>
+                    <p className={`${CeraPro.className} text-gray-600 font-light text-3xl uppercase pb-5`} onClick={() => { setMenuOpen(false)}}>Exit</p>
+                    <a className={`${CeraPro.className} font-light text-3xl uppercase pb-5`} href="https://www.arrayrealestate.com">Home</a>
+                    <a className={`${CeraPro.className} font-light text-3xl uppercase pb-5`} href="https://www.arrayrealestate.com/about">About</a>
+                    <a className={`${CeraPro.className} font-light text-3xl uppercase pb-5`} href="https://www.arrayrealestate.com/services">Services</a>
+                    <a className={`${CeraPro.className} font-light text-3xl uppercase pb-5`} href="https://www.arrayrealestate.com/contact">Contact</a>
+                </div>
                 {/* <!-- buttons - end --> */}
             </div>
 
