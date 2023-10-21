@@ -283,14 +283,14 @@ export default function Home() {
 
 
       {/* Rules Section */}
-      <div id="how-to-play" className="w-screen flex justify-center items-center bg-array-red min-h-96">
+      <div id="rules" className="w-screen flex justify-center items-center bg-array-red min-h-96">
         <div className="grid grid-cols-12 p-4 gap-2 w-full max-w-[72rem] ">
           {/* Main Text */}
-          <div className="col-span-6 col-start-4 flex justify-center pt-8 pb-11">
+          <div className="col-span-12 col-start-1 flex justify-center pt-8 pb-11">
             <p
-              className={`${CeraCompact.className} w-full font-light text-white text-sm leading-6 text-center tracking-tight`}
+              className={`${CeraCompact.className} w-full font-light text-white text-base leading-6 text-center tracking-tight`}
             >
-              Rules of Poker Run
+              Disclaimer: Participants in the contest must adhere to the following rules: each participant is allowed only one entry and cannot share cards with others. Participants must sign in at each open house to receive a card and must use a total of 5 cards for a complete poker hand, which can include the wild card provided by Array Real Estate. A picture of the winning hand must be submitted to office@arrayrealestate.com by 5:00 pm on October 28th. Participants must be 21 years or older to play, and in the event of a tie, the time of email submission to  <Link className="underline font-regular" href="mailto:office@arrayrealestate.com">office@arrayrealestate.com</Link> will serve as the tie-breaker.
             </p>
           </div>
         </div>
