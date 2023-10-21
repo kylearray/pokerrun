@@ -50,9 +50,10 @@ function Header() {
 
                     <a href="https://www.arrayrealestate.com/services/" className={`${Monst.className}  tracking-wide inline-block  px-2 pr-6 pt-2 text-center text-sm font-regular text-gray-500 outline-none transition duration-300 hover:text-gray-800  active:text-[#1b6ec896] md:text-base`}>Services</a>
 
+                    <a href="https://www.arrayrealestate.com/pokerrun/" className={`${Monst.className}  tracking-wide inline-block  px-2 pr-6 pt-2 text-center text-sm font-regular text-gray-500 outline-none transition duration-300 hover:text-gray-800  active:text-[#1b6ec896] md:text-base`}>Poker Run</a>
+
                     <a href="https://www.arrayrealestate.com/contact/" className={`${Monst.className} uppercase tracking-widest inline-block w-44  bg-[#1b6ec8] px-4 py-3 text-center text-xs font-medium text-white outline-none transition duration-400 hover:bg-[#1b6ec896] md:text-xs`}>Contact us</a>
 
-                    <a href="https://www.arrayrealestate.com/pokerrun/" className={`${Monst.className} uppercase tracking-widest inline-block w-44  bg-[#1b6ec8] px-4 py-3 text-center text-xs font-medium text-white outline-none transition duration-400 hover:bg-[#1b6ec896] md:text-xs`}>Poker Run</a>
                 </div>
 
                 <button onClick={() => { setMenuOpen(!menuOpen)}} type="button" className="inline-flex items-center gap-2  bg-[#1b6ec8] px-3 py-3 text-sm  font-semibold focus-visible:ring active:text-gray-700 md:text-base lg:hidden">
