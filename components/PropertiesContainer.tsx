@@ -109,7 +109,7 @@ function PropertiesContainer() {
 
               {item.Media ? <Link href={item.Media}> <button className="h-8 px-5 mt-8 text-array-black transition-colors duration-200 bg-white rounded-sm focus:shadow-outline hover:bg-gray-200 ">View More</button></Link>
                 :
-                <button className="h-8 px-5 mt-8 text-array-black transition-colors duration-200 bg-white rounded-sm focus:shadow-outline hover:bg-gray-200 ">View Pictures</button>
+                <button className="h-8 px-5 mt-8 text-array-black transition-colors duration-200 bg-white rounded-sm focus:shadow-outline hover:bg-gray-200 ">View More</button>
               }
 
 
