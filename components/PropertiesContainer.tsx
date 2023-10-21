@@ -37,7 +37,7 @@ function PropertiesContainer() {
             </div>
 
             <p
-              className={`${CeraPro.className} font-light pb-5 lg:mt-2 text-3xl text-center`}
+              className={`${CeraPro.className} font-light text-white pb-5 lg:mt-2 text-3xl text-center`}
             >
               {item.Price}
             </p>
@@ -47,14 +47,14 @@ function PropertiesContainer() {
           {/* Right Side */}
           <div className="col-span-1 max-w-xl lg:col-span-7 lg:ml-10 lg:pl-3 flex lg:py-8 w-full">
             <div className="flex flex-col items-start">
-              <h2 className={`${CeraPro.className} font-bold text-4xl`}>
+              <h2 className={`${CeraPro.className} font-bold text-white text-4xl`}>
                 {item.Address}
               </h2>
-              <h3 className={`${CeraPro.className} font-light text-2xl`}>
+              <h3 className={`${CeraPro.className} font-light text-white text-2xl`}>
                 {item.Subaddress}
               </h3>
               <p
-                className={`${CeraCompact.className} font-light text-base lg:pr-5 pt-4 leading-5`}
+                className={`${CeraCompact.className} font-light text-white text-base lg:pr-5 pt-4 leading-5`}
               >
                 {item.MarketingRemarks}
               </p>
@@ -70,7 +70,7 @@ function PropertiesContainer() {
                     src="/static/images/Icons/bed.png"
                   />
                   <p
-                    className={`${CeraPro.className} font-light text-2xl lg:text-3xl pl-2 `}
+                    className={`${CeraPro.className} font-light text-white text-2xl lg:text-3xl pl-2 `}
                   >
                     {item.Beds}
                   </p>
@@ -85,7 +85,7 @@ function PropertiesContainer() {
                     src="/static/images/Icons/bath.png"
                   />
                   <p
-                    className={`${CeraPro.className} font-light text-2xl lg:text-3xl pl-2 `}
+                    className={`${CeraPro.className} font-light text-white text-2xl lg:text-3xl pl-2 `}
                   >
                     {item.Baths}
                   </p>
@@ -100,7 +100,7 @@ function PropertiesContainer() {
                     src="/static/images/Icons/house.png"
                   />
                   <p
-                    className={`${CeraPro.className} font-light text-2xl lg:text-3xl pl-2 `}
+                    className={`${CeraPro.className} font-light text-white text-2xl lg:text-3xl pl-2 `}
                   >
                     {item.SqFt}
                   </p>
