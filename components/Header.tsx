@@ -54,17 +54,17 @@ function Header() {
                 </div>
 
                 <button onClick={() => { setMenuOpen(!menuOpen)}} type="button" className="inline-flex items-center gap-2  bg-[#1b6ec8] px-3 py-3 text-sm  font-semibold focus-visible:ring active:text-gray-700 md:text-base lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 bg--white" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
                     </svg>
                 </button>
 
                 <div className={`${menuOpen ? styles.open : styles.hiddenAway} place-items-center pt-8 bg-array-black h-screen w-screen top-0 left-0`}>
                     <p className={`${CeraPro.className} text-gray-600 font-light text-3xl uppercase pb-5`} onClick={() => { setMenuOpen(false)}}>Exit</p>
-                    <a className={`${CeraPro.className} font-light text-3xl uppercase pb-5`} href="https://www.arrayrealestate.com">Home</a>
-                    <a className={`${CeraPro.className} font-light text-3xl uppercase pb-5`} href="https://www.arrayrealestate.com/about">About</a>
-                    <a className={`${CeraPro.className} font-light text-3xl uppercase pb-5`} href="https://www.arrayrealestate.com/services">Services</a>
-                    <a className={`${CeraPro.className} font-light text-3xl uppercase pb-5`} href="https://www.arrayrealestate.com/contact">Contact</a>
+                    <a className={`${CeraPro.className} font-light text-white text-3xl uppercase pb-5`} href="https://www.arrayrealestate.com">Home</a>
+                    <a className={`${CeraPro.className} font-light text-white text-3xl uppercase pb-5`} href="https://www.arrayrealestate.com/about">About</a>
+                    <a className={`${CeraPro.className} font-light text-white text-3xl uppercase pb-5`} href="https://www.arrayrealestate.com/services">Services</a>
+                    <a className={`${CeraPro.className} font-light text-white text-3xl uppercase pb-5`} href="https://www.arrayrealestate.com/contact">Contact</a>
                 </div>
                 {/* <!-- buttons - end --> */}
             </div>
