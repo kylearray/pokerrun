@@ -55,7 +55,7 @@ export default function Home() {
                 <div className="mt-4 h-7 w-32 bg-array-red hover:bg-red-300 duration-300 flex">
                   <Link
                     href="#listing"
-                    className={`${CeraCompact.className} font-thin text-base uppercase text-center justify-center w-full pt-[.2rem]`}
+                    className={`${CeraCompact.className} font-thin text-white text-base uppercase text-center justify-center w-full pt-[.2rem]`}
                   >
                     VIEW HOUSES
                   </Link>
@@ -64,7 +64,7 @@ export default function Home() {
                 <div className="mt-4 ml-4 h-7 w-32 bg-array-red hover:bg-red-300 duration-300 flex">
                   <Link
                     href="#prizes"
-                    className={`${CeraCompact.className} font-thin text-base uppercase text-center justify-center w-full pt-[.2rem]`}
+                    className={`${CeraCompact.className} font-thin text-white text-base uppercase text-center justify-center w-full pt-[.2rem]`}
                   >
                     SEE PRIZES
                   </Link>
