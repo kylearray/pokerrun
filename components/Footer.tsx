@@ -6,23 +6,31 @@ function Footer() {
     <footer className="text-green-600 bg-white body-font">
       <div className="container px-5 py-14 mx-auto bg-white">
         <div className="flex flex-wrap md:text-left text-center order-first">
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4"></div>
+
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4"></div>
+
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
               WASHINGTON
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="text-gray-600 hover:text-gray-800">5901 Roosevelt Way NE</a>
+                <a className="text-gray-600 hover:text-gray-800">
+                  5901 Roosevelt Way NE
+                </a>
               </li>
               <li>
                 <a className="text-gray-600 hover:text-gray-800">Suite 101C</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Seattle, WA 98105</a>
+                <a className="text-gray-600 hover:text-gray-800">
+                  Seattle, WA 98105
+                </a>
               </li>
             </nav>
           </div>
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+          {/* <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
               IDAHO
             </h2>
@@ -37,36 +45,55 @@ function Footer() {
                 <a className="text-gray-600 hover:text-gray-800">Coeur d&#39;Alene, ID 83814</a>
               </li>
             </nav>
-          </div>
+          </div> */}
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
               More Info
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a href="https://www.arrayrealestate.com/about/" className="text-gray-600 hover:text-gray-800">Our Team</a>
+                <a
+                  href="https://www.arrayrealestate.com/about/"
+                  className="text-gray-600 hover:text-gray-800"
+                >
+                  Our Team
+                </a>
               </li>
               <li>
-                <a href="https://www.arrayrealestate.com/services/"className="text-gray-600 hover:text-gray-800">Services</a>
+                <a
+                  href="https://www.arrayrealestate.com/services/"
+                  className="text-gray-600 hover:text-gray-800"
+                >
+                  Services
+                </a>
               </li>
               <li>
-                <a href="https://www.arrayrealestate.com/contact/" className="text-gray-600 hover:text-gray-800">Contact Us</a>
+                <a
+                  href="https://www.arrayrealestate.com/contact/"
+                  className="text-gray-600 hover:text-gray-800"
+                >
+                  Contact Us
+                </a>
               </li>
             </nav>
           </div>
-
         </div>
       </div>
       <div className="bg-gray-100">
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <Image src="/static/images/logo_horizontal.png" alt="company logo" width={180} height={200}></Image>
+            <Image
+              src="/static/images/logo_horizontal.png"
+              alt="company logo"
+              width={180}
+              height={200}
+            ></Image>
           </a>
           <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
             Copyright © 2023 Array Real Estate
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <a className="text-gray-500">
+            <a href="https://www.facebook.com/arrayre" className="text-gray-500 hover:cursor-pointer">
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -78,19 +105,8 @@ function Footer() {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
               </svg>
             </a>
-            <a className="ml-3 text-gray-500">
-              <svg
-                fill="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                className="w-5 h-5"
-                viewBox="0 0 24 24"
-              >
-                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-              </svg>
-            </a>
-            <a className="ml-3 text-gray-500">
+            
+            <a href="https://www.instagram.com/arrayre" className="ml-3 text-gray-500 hover:cursor-pointer">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -104,7 +120,19 @@ function Footer() {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
               </svg>
             </a>
-            <a className="ml-3 text-gray-500">
+            <a href="https://twitter.com/ArrayRE" className="ml-3 text-gray-500 hover:cursor-pointer">
+              <svg
+                fill="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                className="w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/company/arrayre" className="ml-3 text-gray-500 hover:cursor-pointer">
               <svg
                 fill="currentColor"
                 stroke="currentColor"

@@ -78,11 +78,16 @@ export default function Home() {
       </div>
 
       {/* How To Play Section */}
-      <div id="how-to-play" className="w-screen flex justify-center items-center bg-array-red min-h-96 pt-6">
+      <div
+        id="how-to-play"
+        className="w-screen flex justify-center items-center bg-array-red min-h-96 pt-6"
+      >
         <div className="grid grid-cols-3 md:grid-cols-12 p-4 gap-2 w-full max-w-[72rem] ">
           {/* Main Text */}
           <div className="col-span-12 flex justify-center pt-6">
-            <h2 className={`${Post.className} font-bold text-white text-6xl lg:text-7xl`}>
+            <h2
+              className={`${Post.className} font-bold text-white text-6xl lg:text-7xl`}
+            >
               HOW TO PLAY
             </h2>
           </div>
@@ -107,29 +112,39 @@ export default function Home() {
               3:00pm—it&#39;s easy and free! Just visit the open houses listed
               below, collect a playing card at each house, and aim to make the
               best five-card poker hand possible. The more houses you visit, the
-              more cards you collect, increasing your chances of winning. After
-              3:00pm, submit your best hand, and if your hand ranks among the
-              top three, you&#39;ll win a prize! It&#39;s a fun-filled day of exploring
-              homes and playing poker. See you there!
+              more cards you collect, increasing your chances of winning. By
+              5:00PM, email a picture of your best hand to{" "}
+              <Link
+                className="underline font-regular"
+                href="mailto:office@arrayrealestate.com"
+              >
+                office@arrayrealestate.com
+              </Link>
+              , and if your hand ranks among the top three, you&#39;ll win a
+              prize! It&#39;s a fun-filled day of exploring homes and playing
+              poker. See you there!
             </p>
           </div>
         </div>
       </div>
 
       {/* Prizes Section */}
-      <div id="prizes" className="w-screen flex justify-center items-center bg-array-black min-h-96">
+      <div
+        id="prizes"
+        className="w-screen flex justify-center items-center bg-array-black min-h-96"
+      >
         <div className="grid grid-cols-3 md:grid-cols-12 p-4 gap-2 w-full max-w-[72rem] pb-24 ">
-          
           {/* Main Text */}
           <div className="col-span-12 flex justify-center pt-6">
-            <h2 className={`${Post.className} font-bold text-white text-6xl lg:text-7xl`}>
+            <h2
+              className={`${Post.className} font-bold text-white text-6xl lg:text-7xl`}
+            >
               PRIZES
             </h2>
           </div>
 
           {/* Prizes Container */}
           <div className="col-span-12 grid-cols-1 lg:grid-cols-3 grid justify-center items-center pt-10 place-items-center">
-
             {/* Second Place */}
             <div className="col-span-1 max-w-sm mx-6 lg:mt-16 lg:pt-auto pt-8 justify-center ">
               <div className="w-full bg-[#ECF0FA] h-44 px-5 py-4 flex justify-center align-center">
@@ -150,8 +165,12 @@ export default function Home() {
                 <p
                   className={`${CeraPro.className} font-regular text-lg leading-5 pt-3 text-array-black text-center`}
                 >
-                  Seattle Kraken vs. New York Islanders Tickets (Lower section
-                  seats on 11/16 @ 7:00pm - $300+ value)
+                  <strong>Seattle Kraken vs. New York Islanders Tickets</strong>
+                </p>
+                <p
+                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-3 text-array-black text-center`}
+                >
+                  Lower section seats on 11/16 @ 7:00pm - $300+ value
                 </p>
               </div>
             </div>
@@ -176,8 +195,16 @@ export default function Home() {
                 <p
                   className={`${CeraPro.className} font-regular text-lg leading-5 pt-5 text-array-black text-center`}
                 >
-                  “Taste of Seattle” Basket Gift cards for top-rated Seattle
-                  eateries - $600+ value
+                  <strong>
+                    “Taste of Seattle” Basket Gift cards for top-rated Seattle
+                    eateries{" "}
+                  </strong>{" "}
+                  <br />
+                </p>
+                <p
+                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-3 text-array-black text-center`}
+                >
+                  $600+ value
                 </p>
               </div>
             </div>
@@ -202,8 +229,14 @@ export default function Home() {
                 <p
                   className={`${CeraPro.className} font-regular text-lg leading-5 pt-3 text-array-black text-center`}
                 >
-                  2015 Sheridan Vineyard Block One Cabernet Sauvignon (Must be 21+ older to win -
-                  $150+ value)
+                  <strong>
+                    2015 Sheridan Vineyard Block One Cabernet Sauvignon
+                  </strong>
+                </p>
+                <p
+                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-3 text-array-black text-center`}
+                >
+                  Must be 21+ older to win - $150+ value
                 </p>
               </div>
             </div>
@@ -212,14 +245,17 @@ export default function Home() {
       </div>
 
       {/* Listing Header*/}
-      <div id="listing" className="w-screen flex justify-center items-center bg-white min-h-96">
+      <div
+        id="listing"
+        className="w-screen flex justify-center items-center bg-white min-h-96"
+      >
         <div className="grid grid-cols-3 md:grid-cols-12 p-4 gap-2 w-full max-w-[72rem] ">
           {/* Main Text */}
           <div className="col-span-12 flex justify-center py-8">
             <h2
               className={`${Post.className} font-bold text-array-black text-7xl`}
             >
-              LISTINGS
+              OPEN HOUSES
             </h2>
           </div>
         </div>
@@ -245,9 +281,9 @@ export default function Home() {
                 className={`${CeraCompact.className} w-full font-light text-base lg:text-lg text-array-black lg:pr-5 pt-4 leading-5 mr-24`}
               >
                 Feel free to ask us anything about the properties, the event, or
-                the home-buying process. We&#39;re here to assist you every step of
-                the way. Contact our dedicated agent, Michael, for personalized
-                guidance and expert advice.
+                the home-buying process. We&#39;re here to assist you every step
+                of the way. Contact our dedicated agent, Michael, for
+                personalized guidance and expert advice.
               </p>
             </div>
           </div>
@@ -274,28 +310,62 @@ export default function Home() {
               <p
                 className={`${CeraPro.className} font-light text-lg text-array-black`}
               >
-                <Link className="underline" href="mailto:michael@arrayrealestate.com">michael@arrayrealestate.com</Link>
+                <Link
+                  className="underline"
+                  href="mailto:michael@arrayrealestate.com"
+                >
+                  michael@arrayrealestate.com
+                </Link>
               </p>
             </div>
           </div>
         </div>
       </div>
 
-
       {/* Rules Section */}
-      <div id="rules" className="w-screen flex justify-center items-center bg-array-red min-h-96">
+      <div
+        id="rules"
+        className="w-screen flex justify-center items-center bg-array-red min-h-96"
+      >
         <div className="grid grid-cols-12 p-4 gap-2 w-full max-w-[72rem] ">
           {/* Main Text */}
-          <div className="col-span-12 col-start-1 flex justify-center pt-8 pb-11">
+          <div className="col-span-12 col-start-1 flex flex-col justify-center pt-8 pb-11">
             <p
               className={`${CeraCompact.className} w-full font-light text-white text-base leading-6 text-center tracking-tight`}
             >
-              Disclaimer: Participants in the contest must adhere to the following rules: each participant is allowed only one entry and cannot share cards with others. Participants must sign in at each open house to receive a card and must use a total of 5 cards for a complete poker hand, which can include the wild card provided by Array Real Estate. A picture of the winning hand must be submitted to office@arrayrealestate.com by 5:00 pm on October 28th. Participants must be 21 years or older to play, and in the event of a tie, the time of email submission to  <Link className="underline font-regular" href="mailto:office@arrayrealestate.com">office@arrayrealestate.com</Link> will serve as the tie-breaker.
+              <strong className="font-medium">Disclaimer: Participants in the contest must adhere to the
+              following rules:</strong>
             </p>
+            <ul className={`${CeraCompact.className} w-full list-disc lg:px-0 px-2 list-inside font-light text-white text-base leading-6 text-center tracking-tight`}>
+                <li>
+                  Each participant is allowed only one entry and cannot share
+                  cards with others.
+                </li>
+                <li>
+                  Participants need to sign in at open houses to receive a card.
+                  A complete poker hand requires 5 cards, and can include the
+                  wild card provided by Array Real Estate.
+                </li>
+                <li>
+                  A picture of the winning hand must be submitted to
+                  office@arrayrealestate.com by 5:00 pm on October 28th.
+                </li>
+
+                <li>
+                  Participants must be 21 years or older to play, and in the
+                  event of a tie, the time of email submission to{" "}
+                  <Link
+                    className="underline font-regular"
+                    href="mailto:office@arrayrealestate.com"
+                  >
+                    office@arrayrealestate.com
+                  </Link>
+                  will serve as the tie-breaker.
+                </li>
+              </ul>
           </div>
         </div>
       </div>
-
     </main>
   );
 }
