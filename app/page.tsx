@@ -127,12 +127,12 @@ export default function Home() {
           </div>
 
           {/* 7 of hearts Text */}
-          <div className="col-span-12 md:col-span-10 md:col-start-2 lg:col-span-6 lg:col-start-4 flex justify-center pt-8 pb-1">
+          <div className="col-span-12 md:col-span-10 md:col-start-2 lg:col-span-6 lg:col-start-4 flex justify-center pt-4 pb-1">
             <p
               className={`${CeraCompact.className} font-bold text-white text-xl pb-4 leading-6 text-center tracking-tight `}
             >
-              Participants may use the following &#34;wild card&#34; as part of their
-              five-card hand:{" "}
+              Participants may use the following &#34;wild card&#34; as part of
+              their five-card hand:{" "}
               <strong className="font-light">7 of Hearts</strong>
             </p>
           </div>
@@ -148,16 +148,17 @@ export default function Home() {
           </div>
 
           {/* Need Help */}
-          <div className="col-span-12 md:col-span-10 md:col-start-2 lg:col-span-6 lg:col-start-4 flex justify-center pt-20 pb-11">
+          <div className="col-span-12 md:col-span-10 md:col-start-2 lg:col-span-6 lg:col-start-4 flex justify-center pt-4 pb-11">
             <p
               className={`${CeraCompact.className} font-light text-white text-base leading-6 text-center tracking-tight `}
             >
-              For more information on understanding the best poker hand, <Link
-                  className="underline font-regular"
-                  href="https://www.cardplayer.com/rules-of-poker/hand-rankings"
-                >
-                  click here.
-                </Link>{" "}
+              For more information on understanding the best poker hand,{" "}
+              <Link
+                className="underline font-regular"
+                href="https://www.cardplayer.com/rules-of-poker/hand-rankings"
+              >
+                click here.
+              </Link>{" "}
             </p>
           </div>
         </div>
@@ -293,12 +294,22 @@ export default function Home() {
       >
         <div className="grid grid-cols-3 md:grid-cols-12 p-4 gap-2 w-full max-w-[72rem] ">
           {/* Main Text */}
-          <div className="col-span-12 flex justify-center py-8">
+          <div className="col-span-12 flex flex-col place-items-center justify-center py-8">
             <h2
               className={`${Post.className} font-bold text-array-black text-7xl`}
             >
               OPEN HOUSES
             </h2>
+            <p
+              className={`${CeraCompact.className} font-bold text-2xl h-6 text-array-black`}
+            >
+              October 28th, 2023
+            </p>
+            <p
+              className={`${CeraCompact.className} font-bold text-lg pb-2 text-array-black`}
+            >
+              12:00PM - 3:00PM PST
+            </p>
           </div>
         </div>
       </div>

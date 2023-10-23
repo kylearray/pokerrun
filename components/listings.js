@@ -29,13 +29,13 @@ const listings = [
     {
         "Address": "8512 1st Ave NE",
         "Subaddress": "Seattle, WA 98115",
-        "Photos": ["/static/images/PropertyPhotos/8512/1.jpg",],
+        "Photos": ["/static/images/PropertyPhotos/8512/A.jpg","/static/images/PropertyPhotos/8512/AA.jpg","/static/images/PropertyPhotos/8512/B.jpg","/static/images/PropertyPhotos/8512/C.jpg","/static/images/PropertyPhotos/8512/D.jpg","/static/images/PropertyPhotos/8512/E.jpg","/static/images/PropertyPhotos/8512/F.jpg","/static/images/PropertyPhotos/8512/G.jpg","/static/images/PropertyPhotos/8512/H.jpg","/static/images/PropertyPhotos/8512/I.jpg","/static/images/PropertyPhotos/8512/J.jpg","/static/images/PropertyPhotos/8512/K.jpg","/static/images/PropertyPhotos/8512/L.jpg","/static/images/PropertyPhotos/8512/M.jpg","/static/images/PropertyPhotos/8512/N.jpg",],
         "MLS": "2164529",
         "Beds": 2,
         "Baths": 1,
         "SqFt": "694 SqFt",
         "MarketingRemarks": "This updated and adorable Maple Leaf standalone home is a rare find at this price point. Featuring tasteful updates everywhere that you look - stylish flooring throughout, elegant stainless-steel appliances, and quartz countertops. Double paned windows allow for a quiet living experience with plenty of natural light. Freshly painted exterior along with a reimagined front yard combine for a new outdoor entertaining area to take advantage of. Come see for yourself! Fantastic location with Maple Leaf Reservoir Park, Green Lake and many outstanding restaurants and shops close by.",
-        "Price": "Call for pricing",
+        "Price": "$469,950",
         "Header": "/static/images/PropertyPhotos/8512_header.png",
     },
     {
@@ -81,14 +81,14 @@ const listings = [
 
     }, 
     {
-        "Address": "3012 12th Ave S #A",
+        "Address": "3008 12th Ave S #A",
         "Subaddress": "Seattle, WA",
         "Photos": ["/static/images/PropertyPhotos/3012/1.png",],
         "MLS": "TBD",
         "Beds": 3,
         "Baths": 2.25,
         "Sq. Ft": "1590 SqFt",
-        "MarketingRemarks": "",
+        "MarketingRemarks": "Experience breathtaking views from your high-end new construction home in the most desirable spot on Beacon Hill. Spacious bedrooms, versatile lower floor for hosting or a private living space, combined with the impeccable craftsmanship of Rudd Development - make this the epitome of high-quality urban living. Discover the ultimate Seattle living experience with a modern design that blends seamlessly with the scenic beauty of the Pacific Northwest. Experience unparalleled luxury and serenity in this Seattle gem, offering breathtaking sunset views. With unobstructed roof-top views and walking proximity to Beacon Hill restaurants and retail, this home is unlike any other. Estimated completion date of November 22nd",
         "Price": "Call for pricing",
         "Header": "/static/images/PropertyPhotos/3012_header.png",
 
