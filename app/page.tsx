@@ -139,9 +139,9 @@ export default function Home() {
           {/* 7 of hearts Text */}
           <div className="col-span-12 md:col-span-10 md:col-start-2 lg:col-span-6 lg:col-start-4 flex justify-center pt-8 pb-11">
             <p
-              className={`${CeraCompact.className} font-light text-white text-lg leading-6 text-center tracking-tight`}
+              className={`${CeraCompact.className} font-bold text-white text-lg leading-6 text-center tracking-tight `}
             >
-              Participants will be given one freebie card: <strong className="font-bold">7 of Hearts</strong>
+              Participants will be given one freebie card: <strong className="font-light">7 of Hearts</strong>
             </p>
           </div>
 
