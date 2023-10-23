@@ -1,22 +1,10 @@
-"use client";
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { CeraCompact, CeraPro, Post } from "@/components/fonts";
 import listings from "@/components/listings.js";
 
-
 export default function page() {
-    const [selectedImage, setSelectedImage] = useState(null);
-
-    const handleImageClick = (image) => {
-      setSelectedImage(image);
-    };
-  
-    const closeModal = () => {
-      setSelectedImage(null);
-    };
-  
   return (
     <main className="flex flex-col min-h-screen items-center justify-center bg-white">
       {/* Hero Section */}
@@ -25,7 +13,7 @@ export default function page() {
           {/* Main Text */}
           <div className="col-span-12 flex justify-center pt-6">
             <h2
-              className={`${Post.className} font-bold text-array-black underline text-5xl lg:text-6xl`}
+              className={`${CeraPro.className} font-medium text-array-black underline text-4xl lg:text-5xl`}
             >
               8512 1ST AVE NE
             </h2>
@@ -33,43 +21,159 @@ export default function page() {
 
           {/* Image */}
           <div className="col-span-12 flex flex-col justify-center pt-10">
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-              <div onClick={toggleLargeImage}>
-                <Image
-                  className="h-auto max-w-full rounded-lg"
-                  width={500}
-                  height={200}
-                  src="/static/images/placeholder.jpg"
-                  alt=""
-                />
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+
+              <div className="grid gap-4">
+                <div>
+                  <Image
+                    className="h-auto max-w-full rounded-lg"
+                    src="/static/images/PropertyPhotos/8512/A.jpg"
+                    alt=""
+                    width={320}
+                    height={270}
+                  />
+                </div>
+                <div>
+                  <Image
+                    className="h-auto max-w-full rounded-lg"
+                    src="/static/images/PropertyPhotos/8512/AA.jpg"
+                    alt=""
+                    width={320}
+                    height={270}
+                  />
+                </div>
+                <div>
+                  <Image
+                    className="h-auto max-w-full rounded-lg"
+                    src="/static/images/PropertyPhotos/8512/B.jpg"
+                    alt=""
+                    width={320}
+                    height={270}
+                  />
+                </div>
+                
+                <div>
+                  <Image
+                    className="h-auto max-w-full rounded-lg"
+                    src="/static/images/PropertyPhotos/8512/L.jpg"
+                    alt=""
+                    width={270 }
+                    height={160}
+                  />
+                </div>
               </div>
-              <div>
-                <Image
-                  className="h-auto max-w-full rounded-lg"
-                  width={500}
-                  height={200}
-                  src="/static/images/placeholder.jpg"
-                  alt=""
-                />
+
+              <div className="grid gap-4">
+                <div>
+                  <Image
+                    className="h-auto max-w-full rounded-lg"
+                    src="/static/images/PropertyPhotos/8512/C.jpg"
+                    alt=""
+                    width={320}
+                    height={270}
+                  />
+                </div>
+                <div>
+                  <Image
+                    className="h-auto max-w-full rounded-lg"
+                    src="/static/images/PropertyPhotos/8512/D.jpg"
+                    alt=""
+                    width={320}
+                    height={270}
+                  />
+                </div>
+                <div>
+                  <Image
+                    className="h-auto max-w-full rounded-lg"
+                    src="/static/images/PropertyPhotos/8512/K.jpg"
+                    alt=""
+                    width={320}
+                    height={270}
+                  />
+                </div>
+                <div>
+                  <Image
+                    className="h-auto max-w-full rounded-lg"
+                    src="/static/images/PropertyPhotos/8512/E.jpg"
+                    alt=""
+                    width={320}
+                    height={270}
+                  />
+                </div>
               </div>
-              <div>
-                <Image
-                  className="h-auto max-w-full rounded-lg"
-                  width={500}
-                  height={200}
-                  src="/static/images/placeholder.jpg"
-                  alt=""
-                />
+
+              <div className="grid gap-4">
+                <div>
+                  <Image
+                    className="h-auto max-w-full rounded-lg"
+                    src="/static/images/PropertyPhotos/8512/F.jpg"
+                    alt=""
+                    width={320}
+                    height={270}
+                  />
+                </div>
+                <div>
+                  <Image
+                    className="h-auto max-w-full rounded-lg"
+                    src="/static/images/PropertyPhotos/8512/G.jpg"
+                    alt=""
+                    width={320}
+                    height={270}
+                  />
+                </div>
+                <div>
+                  <Image
+                    className="h-auto max-w-full rounded-lg"
+                    src="/static/images/PropertyPhotos/8512/H.jpg"
+                    alt=""
+                    width={320}
+                    height={270}
+                  />
+                </div>
+                <div>
+                  <Image
+                    className="h-auto max-w-full rounded-lg"
+                    src="/static/images/PropertyPhotos/8512/N.jpg"
+                    alt=""
+                    width={320}
+                    height={270}
+                  />
+                </div>
               </div>
-              <div>
-                <Image
-                  className="h-auto max-w-full rounded-lg"
-                  width={500}
-                  height={200}
-                  src="/static/images/placeholder.jpg"
-                  alt=""
-                />
+
+              <div className="grid gap-4">
+                <div>
+                  <Image
+                    className="h-auto max-w-full rounded-lg"
+                    src="/static/images/PropertyPhotos/8512/I.jpg"
+                    alt=""
+                    width={320}
+                    height={270}
+                  />
+                </div>
+                <div>
+                  <Image
+                    className="h-auto max-w-full rounded-lg"
+                    src="/static/images/PropertyPhotos/8512/J.jpg"
+                    alt=""
+                    width={320}
+                    height={270}
+                  />
+                </div>
+
+                
+                <div>
+                  <Image
+                    className="h-auto max-w-full rounded-lg"
+                    src="/static/images/PropertyPhotos/8512/M.jpg"
+                    alt=""
+                    width={320}
+                    height={270}
+                  />
+                </div>
               </div>
+
+
             </div>
           </div>
         </div>

@@ -23,17 +23,17 @@ function PropertiesContainer() {
         <div className="grid grid-cols-1 lg:grid-cols-12 p-4 gap-2 mb-10  w-full max-w-[72rem] place-items-center">
           {/* Left side */}
           <div className="col-span-1 lg:col-span-5 flex flex-col justify-center lg:py-8 lg:pl-10">
-
             <div className="flex flex-col justify-center items-center w-full h-fit py-4 ">
               <br className="h-96"></br>
               <Image
                 className=" rounded-lg object-cover order-last mr-12"
-                src={item.Header? item.Header : "/static/images/placeholder.jpg"}
+                src={
+                  item.Header ? item.Header : "/static/images/placeholder.jpg"
+                }
                 width={400}
                 height={267}
                 alt="Image of house"
               />
-
             </div>
 
             <p
@@ -41,16 +41,19 @@ function PropertiesContainer() {
             >
               {item.Price}
             </p>
-
           </div>
 
           {/* Right Side */}
           <div className="col-span-1 max-w-xl lg:col-span-7 lg:ml-10 lg:pl-3 flex lg:py-8 w-full">
             <div className="flex flex-col items-start">
-              <h2 className={`${CeraPro.className} font-bold text-white text-4xl`}>
+              <h2
+                className={`${CeraPro.className} font-bold text-white text-4xl`}
+              >
                 {item.Address}
               </h2>
-              <h3 className={`${CeraPro.className} font-light text-white text-2xl`}>
+              <h3
+                className={`${CeraPro.className} font-light text-white text-2xl`}
+              >
                 {item.Subaddress}
               </h3>
               <p
@@ -107,12 +110,27 @@ function PropertiesContainer() {
                 </div>
               </div>
 
-              {item.Media ? <Link href={item.Media}> <button className="h-8 px-5 mt-8 text-array-black transition-colors duration-200 bg-white rounded-sm focus:shadow-outline hover:bg-gray-200 ">View More</button></Link>
-                :
+              {item.Media ? (
+                <Link href={item.Media}>
+                  {" "}
+                  <button className="h-8 px-5 mt-8 text-array-black transition-colors duration-200 bg-white rounded-sm focus:shadow-outline hover:bg-gray-200 ">
+                    View More
+                  </button>
+                </Link>
+              ) : (
                 <></>
-              }
+              )}
 
-
+              {item.Photos.length > 1 ? (
+                <Link href="/8512">
+                  {" "}
+                  <button className="h-8 px-5 mt-8 text-array-black transition-colors duration-200 bg-white rounded-sm focus:shadow-outline hover:bg-gray-200 ">
+                    View More
+                  </button>
+                </Link>
+              ) : (
+                <></>
+              )}
             </div>
           </div>
         </div>
