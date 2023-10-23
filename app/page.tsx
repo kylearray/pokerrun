@@ -126,23 +126,38 @@ export default function Home() {
             </p>
           </div>
 
+          {/* 7 of hearts Text */}
+          <div className="col-span-12 md:col-span-10 md:col-start-2 lg:col-span-6 lg:col-start-4 flex justify-center pt-8 pb-1">
+            <p
+              className={`${CeraCompact.className} font-bold text-white text-xl pb-4 leading-6 text-center tracking-tight `}
+            >
+              Participants may use the following "wild card" as part of their
+              five-card hand:{" "}
+              <strong className="font-light">7 of Hearts</strong>
+            </p>
+          </div>
           {/* 7 of Hearts */}
           <div className="col-span-12 flex justify-center place-items-center">
             <Image
-              className="w-40 pt-4 lg:w-auto "
-              width={100}
-              height={365}
+              className="w-40 lg:w-auto "
+              width={80}
+              height={130}
               alt="7 of hearts card"
               src="/static/images/7ofHearts.png"
             />
           </div>
-          {/* 7 of hearts Text */}
-          <div className="col-span-12 md:col-span-10 md:col-start-2 lg:col-span-6 lg:col-start-4 flex justify-center pt-8 pb-11">
+
+          {/* Need Help */}
+          <div className="col-span-12 md:col-span-10 md:col-start-2 lg:col-span-6 lg:col-start-4 flex justify-center pt-20 pb-11">
             <p
-              className={`${CeraCompact.className} font-bold text-white text-lg leading-6 text-center tracking-tight `}
+              className={`${CeraCompact.className} font-light text-white text-base leading-6 text-center tracking-tight `}
             >
-              Participants will be given one freebie card to use in their hand:{" "}
-              <strong className="font-light">7 of Hearts</strong>
+              For more information on understanding the best poker hand, <Link
+                  className="underline font-regular"
+                  href="https://www.cardplayer.com/rules-of-poker/hand-rankings"
+                >
+                  click here.
+                </Link>{" "}
             </p>
           </div>
         </div>
@@ -192,7 +207,9 @@ export default function Home() {
                 >
                   Lower section seats on 11/16 @ 7:00pm
                   <p className="pt-1 italic ">
-                  <p className="inline italic pt-2 pr-[.15rem]">$340</p>+ value</p>
+                    <p className="inline italic pt-2 pr-[.15rem]">$340</p>+
+                    value
+                  </p>
                 </p>
               </div>
             </div>
@@ -392,7 +409,7 @@ export default function Home() {
                   href="mailto:office@arrayrealestate.com"
                 >
                   office@arrayrealestate.com
-                </Link>
+                </Link>{" "}
                 will serve as the tie-breaker.
               </li>
             </ul>
