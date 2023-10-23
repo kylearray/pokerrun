@@ -125,6 +125,27 @@ export default function Home() {
               poker. See you there!
             </p>
           </div>
+
+          {/* 7 of Hearts */}
+          <div className="col-span-12 flex justify-center place-items-center">
+            <Image
+              className="w-40 pt-4 lg:w-auto "
+              width={100}
+              height={365}
+              alt="7 of hearts card"
+              src="/static/images/7ofHearts.png"
+            />
+          </div>
+          {/* 7 of hearts Text */}
+          <div className="col-span-12 md:col-span-10 md:col-start-2 lg:col-span-6 lg:col-start-4 flex justify-center pt-8 pb-11">
+            <p
+              className={`${CeraCompact.className} font-light text-white text-lg leading-6 text-center tracking-tight`}
+            >
+              Participants will be given one freebie card: <strong className="font-bold">7 of Hearts</strong>
+            </p>
+          </div>
+
+
         </div>
       </div>
 
