@@ -87,7 +87,7 @@ const listings = [
         "MLS": "TBD",
         "Beds": 3,
         "Baths": 2.25,
-        "Sq. Ft": "1590 SqFt",
+        "SqFt": "1590 SqFt",
         "MarketingRemarks": "Experience breathtaking views from your high-end new construction home in the most desirable spot on Beacon Hill. Spacious bedrooms, versatile lower floor for hosting or a private living space, combined with the impeccable craftsmanship of Rudd Development - make this the epitome of high-quality urban living. Discover the ultimate Seattle living experience with a modern design that blends seamlessly with the scenic beauty of the Pacific Northwest. Experience unparalleled luxury and serenity in this Seattle gem, offering breathtaking sunset views. With unobstructed roof-top views and walking proximity to Beacon Hill restaurants and retail, this home is unlike any other. Estimated completion date of November 22nd",
         "Price": "Call for pricing",
         "Header": "/static/images/PropertyPhotos/3012_header.png",

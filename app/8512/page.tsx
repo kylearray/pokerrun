@@ -1,9 +1,22 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { CeraCompact, CeraPro, Post } from "@/components/fonts";
+import listings from "@/components/listings.js";
+
 
 export default function page() {
+    const [selectedImage, setSelectedImage] = useState(null);
+
+    const handleImageClick = (image) => {
+      setSelectedImage(image);
+    };
+  
+    const closeModal = () => {
+      setSelectedImage(null);
+    };
+  
   return (
     <main className="flex flex-col min-h-screen items-center justify-center bg-white">
       {/* Hero Section */}
@@ -21,7 +34,7 @@ export default function page() {
           {/* Image */}
           <div className="col-span-12 flex flex-col justify-center pt-10">
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-              <div>
+              <div onClick={toggleLargeImage}>
                 <Image
                   className="h-auto max-w-full rounded-lg"
                   width={500}
