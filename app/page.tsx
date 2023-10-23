@@ -131,7 +131,7 @@ export default function Home() {
             <p
               className={`${CeraCompact.className} font-bold text-white text-xl pb-4 leading-6 text-center tracking-tight `}
             >
-              Participants may use the following "wild card" as part of their
+              Participants may use the following &#34;wild card&#34; as part of their
               five-card hand:{" "}
               <strong className="font-light">7 of Hearts</strong>
             </p>
