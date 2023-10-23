@@ -141,11 +141,10 @@ export default function Home() {
             <p
               className={`${CeraCompact.className} font-bold text-white text-lg leading-6 text-center tracking-tight `}
             >
-              Participants will be given one freebie card: <strong className="font-light">7 of Hearts</strong>
+              Participants will be given one freebie card to use in their hand:{" "}
+              <strong className="font-light">7 of Hearts</strong>
             </p>
           </div>
-
-
         </div>
       </div>
 
@@ -184,14 +183,16 @@ export default function Home() {
                   Second Place:
                 </p>
                 <p
-                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-3 text-array-black text-center`}
+                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-2 text-array-black text-center`}
                 >
                   <strong>Seattle Kraken vs. New York Islanders Tickets</strong>
                 </p>
                 <p
-                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-3 text-array-black text-center`}
+                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-1 text-array-black text-center`}
                 >
-                  Lower section seats on 11/16 @ 7:00pm - $300+ value
+                  Lower section seats on 11/16 @ 7:00pm
+                  <p className="pt-1 italic ">
+                  <p className="inline italic pt-2 pr-[.15rem]">$340</p>+ value</p>
                 </p>
               </div>
             </div>
@@ -214,18 +215,18 @@ export default function Home() {
                   First Place:
                 </p>
                 <p
-                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-5 text-array-black text-center`}
+                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-3 text-array-black text-center`}
                 >
                   <strong>
-                    “Taste of Seattle” Basket Gift cards for top-rated Seattle
-                    eateries{" "}
+                    “Taste of Seattle” Package - Gift Cards from various
+                    top-rated Seattle eateries
                   </strong>{" "}
                   <br />
                 </p>
                 <p
-                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-3 text-array-black text-center`}
+                  className={`${CeraPro.className} font-regular italic text-lg leading-5 pt-3 text-array-black text-center`}
                 >
-                  $600+ value
+                  <p className="inline italic pr-[.15rem]">$600</p>+ value
                 </p>
               </div>
             </div>
@@ -255,9 +256,12 @@ export default function Home() {
                   </strong>
                 </p>
                 <p
-                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-3 text-array-black text-center`}
+                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-2 text-array-black text-center`}
                 >
-                  Must be 21+ older to win - $150+ value
+                  Must be 21+ older to win
+                  <p className="pt-2 italic ">
+                    <p className="inline italic pr-0">$150</p> value
+                  </p>
                 </p>
               </div>
             </div>
@@ -354,36 +358,44 @@ export default function Home() {
             <p
               className={`${CeraCompact.className} w-full font-light text-white text-base leading-6 text-center tracking-tight`}
             >
-              <strong className="font-medium">Disclaimer: Participants in the contest must adhere to the
-              following rules:</strong>
+              <strong className="font-medium">
+                Rules: Participants in the contest must adhere to the following
+                rules:
+              </strong>
             </p>
-            <ul className={`${CeraCompact.className} w-full list-disc lg:px-0 px-2 list-inside font-light text-white text-base leading-6 text-center tracking-tight`}>
-                <li>
-                  Each participant is allowed only one entry and cannot share
-                  cards with others.
-                </li>
-                <li>
-                  Participants need to sign in at open houses to receive a card.
-                  A complete poker hand requires 5 cards, and can include the
-                  wild card provided by Array Real Estate.
-                </li>
-                <li>
-                  A picture of the winning hand must be submitted to
-                  office@arrayrealestate.com by 5:00 pm on October 28th.
-                </li>
+            <ul
+              className={`${CeraCompact.className} w-full list-disc lg:px-0 px-2 list-inside font-light text-white text-base leading-6 text-center tracking-tight`}
+            >
+              <li>Participants must be 21 years or older to play</li>
 
-                <li>
-                  Participants must be 21 years or older to play, and in the
-                  event of a tie, the time of email submission to{" "}
-                  <Link
-                    className="underline font-regular"
-                    href="mailto:office@arrayrealestate.com"
-                  >
-                    office@arrayrealestate.com
-                  </Link>
-                  will serve as the tie-breaker.
-                </li>
-              </ul>
+              <li>
+                Each participant is allowed only one entry and cannot share
+                cards with others.
+              </li>
+              <li>
+                Participants must sign in at all open houses to receive a card.
+              </li>
+              <li>
+                A complete poker hand requires a total of 5 cards, and can
+                include the wild card provided by Array Real Estate.
+              </li>
+              <li>
+                A picture of the winning hand must be submitted to
+                office@arrayrealestate.com by 5:00 pm on October 28th to be
+                eligible.
+              </li>
+
+              <li>
+                In the event of a tie, the time of email submission to{" "}
+                <Link
+                  className="underline font-regular"
+                  href="mailto:office@arrayrealestate.com"
+                >
+                  office@arrayrealestate.com
+                </Link>
+                will serve as the tie-breaker.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
