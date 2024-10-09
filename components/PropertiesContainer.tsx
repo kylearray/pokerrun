@@ -25,10 +25,8 @@ function PropertiesContainer() {
           {/* Left side */}
           <div className="col-span-1 lg:col-span-5 flex flex-col align-center justify-center lg:py-8 lg:pl-10 lg:relative">
             <Image
-              className=" rounded-lg object-cover w-full h-full rounded-lg mt-6 lg:mt-0"
-              src={
-                item.Header ? item.Header : "/static/images/placeholder.jpg"
-              }
+              className="rounded-lg object-cover w-full h-full rounded-lg mt-6 lg:mt-0"
+              src={item.Header ? item.Header : "/static/images/placeholder.jpg"}
               width={550}
               height={550}
               alt="Image of house"
