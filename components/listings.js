@@ -81,7 +81,7 @@ const listings = [
         "SqFt": "1,181 ft",
         "MarketingRemarks": "Introducing Valley View Vistas - a collection of seven superb new construction homes that epitomize modern living. In the kitchen, the sleek quartz countertops complement top-of-the-line stainless-steel appliances, creating a space that is both functional and elegant. The owner’s suite is a sanctuary of comfort, featuring a spacious walk-in closet, dual vanities, and a beautifully tiled shower. Every room comes with energy-efficient mini-splits, ensuring 24/7 comfort. Ascend to the rooftop deck to take in breathtaking views of the Seattle skyline and Mt. Rainier. This home is just a short stroll from the Seattle Children’s PlayGarden, Jimi Hendrix Park, and the soon-to-open Judkins Park Light Rail Station, offering unparalleled convenience.",
         "Price": "$654,950",
-        "Header": "/static/images/2024/1820.jpg",
+        "Header": "/static/images/2024/1820.JPG",
         "Media": "https://portal.onehome.com/en-US/share/1156080a24863",
         "OtherAvailableHomes": 6, // Updated
         "OtherPriceRange": "$496,000 - $874,950", // Updated
@@ -99,7 +99,7 @@ const listings = [
         "SqFt": "2,100 ft",
         "MarketingRemarks": "Call for more details!",
         "Price": "$1,189,950",
-        "Header": "/static/images/2024/1313.jpg",
+        "Header": "/static/images/2024/1313.JPG",
         // ... existing code ...
         "OtherAvailableHomes": 6, // Updated
         "OtherPriceRange": "$989,950 - $1,199,950", // Updated
@@ -117,7 +117,7 @@ const listings = [
         "SqFt": "825 ft",
         "MarketingRemarks": "These stunning two-bedroom homes feature an open-concept design bathed in natural light. Enjoy sleek quartz countertops and high-end stainless steel appliances in the stylish kitchen. With a dedicated parking space, convenience is at your doorstep. Don't miss your chance to own these Mt. Baker gems.",
         "Price": "Call for pricing.",
-        "Header": "/static/images/2024/3324.jpg",
+        "Header": "/static/images/2024/3324.JPG",
         // ... existing code ...
         "OtherAvailableHomes": 4, // Updated
         "OtherPriceRange": "Call for pricing", // Updated
@@ -135,7 +135,7 @@ const listings = [
         "SqFt": "Call for details",
         "MarketingRemarks": "Welcome to your dream home featuring breathtaking lake views! These meticulously crafted homes offer a perfect blend of modern luxury and natural beauty. Indulge in the gourmet kitchen featuring sleek quartz countertops and top-of-the-line stainless steel appliances, perfect for culinary enthusiasts. Experience the perfect balance of comfort and style, all within walking distance of the Genesee Park and Lake Washington.",
         "Price": "Call for pricing.",
-        "Header": "/static/images/2024/4127.jpg",
+        "Header": "/static/images/2024/4127.JPG",
         // ... existing code ...
         "OtherAvailableHomes": 3, // Updated
         "OtherPriceRange": "Call for pricing.", // Updated
