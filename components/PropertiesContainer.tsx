@@ -138,10 +138,10 @@ function PropertiesContainer() {
               >
                 Other homes available in this project:
               </p>
-              <h3 className="font-light text-xl text-white ">
+              <h3 className="font-light text-white text-xl lg:text-2xl">
                 Available Homes: 3
               </h3>
-              <h3 className="font-light text-xl  text-white ">
+              <h3 className="font-light text-white text-xl lg:text-2xl">
                 Price Range: $829,950 - $1,695,000
               </h3>
 
