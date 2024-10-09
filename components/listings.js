@@ -1,111 +1,149 @@
 const listings = [
     {
-        "Address": "11531 38th Ave NE",
-        "Subaddress": "Seattle, WA 98125",
-        "Photos": ["/static/images/PropertyPhotos/11531/1.jpg",],
-        "MLS": "2150028",
-        "Beds": 5,
-        "Baths": 3.25,
-        "SqFt": "2,727 SqFt",
-        "MarketingRemarks": "This 5 bed + 3.25 bath oasis allows for flexibility & space to create the home atmosphere you desire. Grand open-concept great room spills out onto a private deck & backyard to create the perfect indoor/outdoor experience. Chefs will enjoy a kitchen featuring stainless steel appliances, stylish finishes & oversized walk-in pantry. Unwind in the deluxe primary suite with a 5-piece bath & private patio that gives home a spa-like experience. Utilize the spacious additional bedrooms for guests, recreational space, work from home office & more! With giant walk-in closets throughout & dedicated laundry room, embrace the perfect blend of comfort & convenience. This home also includes EV ready parking.",
-        "Price": "$1,199,950",
-        "Media": "https://login.focusedmediacollective.com/11531-38th-Ave-NE",
-        "Header": "/static/images/PropertyPhotos/11531_header.png",
-
-    },
-    {
-        "Address": "8514 1st Ave NE",
-        "Subaddress": "Seattle, WA 98115",
-        "Photos": ["/static/images/PropertyPhotos/8514/1.jpg",],
-        "MLS": "2164527",
-        "Beds": 5,
-        "Baths": 3.25,
-        "SqFt": "2,558 SqFt",
-        "MarketingRemarks": "New construction home with a luxurious owner's level, spacious open living & dining area, & four functional additional bedrooms. On the massive owner's level, you’ll find a deluxe five-piece bathroom with heated flooring, expansive walk-in closet & a private covered balcony. Explore the chef's dream kitchen boasting top-of-the-line appliances, modern finishes & a jumbo-sized pantry. Generous living room flows onto private patio, perfect for summer days. Finally, grab some snacks & find your way to the bonus room, prepped for a future wet bar - with potential to convert to a rental. With two private parking spots & 100sf of storage area, don’t miss out on a home of this size in Maple Leaf!",
-        "Price": "$1,049,950",
-        "Media": "https://login.focusedmediacollective.com/8512-1st-Ave-NE",
-        "Header": "/static/images/PropertyPhotos/8514_header.png",
-    },
-    {
-        "Address": "8512 1st Ave NE",
-        "Subaddress": "Seattle, WA 98115",
-        "Photos": ["/static/images/PropertyPhotos/8512/A.jpg","/static/images/PropertyPhotos/8512/AA.jpg","/static/images/PropertyPhotos/8512/B.jpg","/static/images/PropertyPhotos/8512/C.jpg","/static/images/PropertyPhotos/8512/D.jpg","/static/images/PropertyPhotos/8512/E.jpg","/static/images/PropertyPhotos/8512/F.jpg","/static/images/PropertyPhotos/8512/G.jpg","/static/images/PropertyPhotos/8512/H.jpg","/static/images/PropertyPhotos/8512/I.jpg","/static/images/PropertyPhotos/8512/J.jpg","/static/images/PropertyPhotos/8512/K.jpg","/static/images/PropertyPhotos/8512/L.jpg","/static/images/PropertyPhotos/8512/M.jpg","/static/images/PropertyPhotos/8512/N.jpg",],
-        "MLS": "2164529",
-        "Beds": 2,
-        "Baths": 1,
-        "SqFt": "694 SqFt",
-        "MarketingRemarks": "This updated and adorable Maple Leaf standalone home is a rare find at this price point. Featuring tasteful updates everywhere that you look - stylish flooring throughout, elegant stainless-steel appliances, and quartz countertops. Double paned windows allow for a quiet living experience with plenty of natural light. Freshly painted exterior along with a reimagined front yard combine for a new outdoor entertaining area to take advantage of. Come see for yourself! Fantastic location with Maple Leaf Reservoir Park, Green Lake and many outstanding restaurants and shops close by.",
-        "Price": "$469,950",
-        "Header": "/static/images/PropertyPhotos/8512_header.png",
-    },
-    {
-        "Address": "758 & 760N 72nd St",
-        "Subaddress": "Seattle, WA 98103",
-        "Photos": ["/static/images/PropertyPhotos/758B/1.jpg",],
-        "MLS": "2161927",
-        "Beds": 2,
-        "Baths": 1.75,
-        "SqFt": "1,271-1,391 SqFt",
-        "MarketingRemarks": "Ideally situated between the desirable neighborhoods of Green Lake and Phinney Ridge, prepare to be enchanted by the unobstructed views of Green Lake and the Cascade Mountains from your very own rooftop oasis. As you enter the home, you'll be welcomed by the premium hardwood flooring that seamlessly connects each room. Revel in the abundant natural light that bathes every nook, crafting an inviting and warm ambiance throughout. This home boasts the latest in contemporary design, including top-tier appliances and modern finishes that elevate every inch. Finally, take a moment to unwind on your private patio. Convenience is at your doorstep! Embrace the urban lifestyle with easy access to shops, restaurants, parks, and entertainment venues.",
-        "Price": "$769,950-$829,950",
-        "Media": "https://login.focusedmediacollective.com/758-N-72nd-St",
-        "Header": "/static/images/PropertyPhotos/760A_header.png",
-
-    },
-    {
-        "Address": "1805 N 105th St",
-        "Subaddress": "Seattle, WA 98133",
-        "Photos": ["/static/images/PropertyPhotos/1805/1.jpeg",],
+        "Address": "12058 8th Ave NW",
+        "Subaddress": "Seattle, WA 98177",
+        "Photos": [], // Add relevant photo paths here
         "MLS": "TBD",
-        "Beds": 2,
-        "Baths": 2.5,
-        "SqFt": "1,050 SqFt",
-        "MarketingRemarks": "Welcome to Parkside Cottages, where charm meets modern living! These newly constructed 2-bedroom, 2.5-bathroom homes are nestled in a walkable neighborhood overlooking scenic Mineral Park. When you step inside, you’ll discover an elegantly designed modern interior, complete with two spacious bedrooms, each boasting its own en-suite bathroom. The open concept living area seamlessly connects to a generous outdoor space, perfect for relaxing and entertaining. It won’t take long to see how these homes effortlessly blend convenience and comfort. Just a short stroll away a vibrant community beckons, offering an array of shops, dining options, entertainment, and easy access to the light rail. Don't miss your chance to own a piece of this walkable paradise – come experience it for yourself!",
-        "Price": "Call for pricing",
-        "Header": "/static/images/PropertyPhotos/1805_header.png",
-
+        "Beds": 4,
+        "Baths": 3.25,
+        "SqFt": "2,993 ft",
+        "MarketingRemarks": "Experience views of the Puget Sound unlike any other. This stunning new construction gem offers unparalleled luxury along with unobstructed views in almost every space of the home. The expansive owner's suite boasts a spa-inspired bathroom and a custom walk-in closet. You’ll enjoy multiple unmatched entertainment areas, including the party bonus room with covered deck and a private fenced-in backyard. Elevate your living experience with the grand fireplace, quartz countertops, Bertazonni range, and top-of-the-line stainless steel appliances. For those sommeliers and cocktail connoisseurs, don’t forget the wine fridge and home bar! Nestled in the quiet neighborhood of Broadview, don’t miss out on this one-of-a-kind home.",
+        "Price": "$1,695,000",
+        "Header": "/static/images/2024/12058.jpg",
+        "Media": "https://portal.onehome.com/en-US/share/1156076k94992",
+        "OtherAvailableHomes": 5, // Updated
+        "OtherPriceRange": "$749,950 - $1,695,000", // Updated
+        "OtherBedrooms": "2 - 4", // Updated
+        "OtherBathrooms": "1.75 - 3.25", // Updated
+        "OtherSqFt": "1,323 - 3,323 ft", // Updated
     },
-
     {
-        "Address": "1938 S Lander St",
-        "Subaddress": "Seattle, WA 98144",
-        "Photos": ["/static/images/PropertyPhotos/1938/1.jpg",],
-        "MLS": "2141524",
-        "Beds": 2,
-        "Baths": 1.5,
-        "SqFt": "919 SqFt",
-        "MarketingRemarks": "This new construction free standing home features quartz countertops, stainless steel appliances, stylish backsplashes, and other high end finishes throughout. Vaulted ceilings, skylights, and strategically placed windows allow for the perfect combination of natural light, privacy, and views of the Cascade Mountains. The well designed kitchen and functional living room flows onto a private patio - ready for customization and backyard entertainment. Inside you’ll keep cool with the high efficiency A/C. Ideally located in the desirable neighborhood of Beacon Hill with plentiful top-rated restaurants, shops, and parks close by. With the Light Rail Station and other transit options only a 5 minute walk away, this location is a commuter's dream.",
-        "Price": "$639,950",
-        "Media": "https://login.focusedmediacollective.com/1938SLanderSt",
-        "Header": "/static/images/PropertyPhotos/1938_header.png",
-
-    }, 
+        "Address": "12015 36th Ave NE",
+        "Subaddress": "Seattle, WA 98125",
+        "Photos": [], 
+        "MLS": "TBD",
+        "Beds": 4,
+        "Baths": 3.5,
+        "SqFt": "3,100 ft",
+        "MarketingRemarks": "Welcome to this stunning modern new construction home. Step inside to discover light-filled living spaces, where the open-concept design seamlessly connects the living, dining, and kitchen areas, perfect for entertaining. The kitchen boasts top-of-the-line stainless steel appliances, a large center island with quartz countertops, custom cabinetry, and a butler’s pantry. Retreat to the luxurious owner’s suite, complete with an expansive custom walk-in closet and a spa-like ensuite bath featuring a freestanding soaking tub, dual vanities, and designer tile. Enjoy multiple entertainment spaces, including a spacious rooftop deck and a versatile lower-level bonus room. The high-quality custom finishes throughout make this a one-of-a-kind home.",
+        "Price": "$1,489,950",
+        "Header": "/static/images/2024/12015.jpg",
+        // ... existing code ...
+        "OtherAvailableHomes": 6, // Updated
+        "OtherPriceRange": "$839,950 - $1,489,950", // Updated
+        "OtherBedrooms": "2 - 4", // Updated
+        "OtherBathrooms": "1.75 - 3.25", // Updated
+        "OtherSqFt": "1,135 - 3,100 ft", // Updated
+    },
     {
-        "Address": "3008 12th Ave S #A",
-        "Subaddress": "Seattle, WA",
-        "Photos": ["/static/images/PropertyPhotos/3012/1.png",],
+        "Address": "1735 NE 89th St",
+        "Subaddress": "Seattle, WA 98115",
+        "Photos": [], // Add relevant photo paths here
         "MLS": "TBD",
         "Beds": 3,
-        "Baths": 2.25,
-        "SqFt": "1590 SqFt",
-        "MarketingRemarks": "Experience breathtaking views from your high-end new construction home in the most desirable spot on Beacon Hill. Spacious bedrooms, versatile lower floor for hosting or a private living space, combined with the impeccable craftsmanship of Rudd Development - make this the epitome of high-quality urban living. Discover the ultimate Seattle living experience with a modern design that blends seamlessly with the scenic beauty of the Pacific Northwest. Experience unparalleled luxury and serenity in this Seattle gem, offering breathtaking sunset views. With unobstructed roof-top views and walking proximity to Beacon Hill restaurants and retail, this home is unlike any other. Estimated completion date of November 22nd",
-        "Price": "Call for pricing",
-        "Header": "/static/images/PropertyPhotos/3012_header.png",
-
+        "Baths": 1.75,
+        "SqFt": "1,401 ft",
+        "MarketingRemarks": "Experience modern luxury at this Maple Leaf oasis. This home features an owner’s suite that covers an entire floor, with vaulted ceilings, skylights, walk-in closet, and a gorgeous ensuite bathroom with dual vanities and a large, tiled shower with glass doors. The open concept living area seamlessly flows into the private patio and fenced backyard - providing a peaceful outdoor retreat. The sleek, open kitchen includes quartz countertops and stainless-steel appliances. Enjoy two additional bedrooms which can serve a versatile home office or guest room, one of which includes an ensuite. The home’s bright, airy design offers comfortable living with contemporary finishes throughout, from the hardwood floors to the elegant light fixtures.",
+        "Price": "$829,950",
+        "Header": "/static/images/2024/1733.jpg",
+        "Media": "https://portal.onehome.com/en-US/share/1156078q45270",
+        "OtherAvailableHomes": 2, // Updated
+        "OtherPriceRange": "$744,950 - $829,950", // Updated
+        "OtherBedrooms": "2 - 3", // Updated
+        "OtherBathrooms": "1.75", // Updated
+        "OtherSqFt": "1,125 - 1,401 ft", // Updated
     },
     {
-        "Address": "7557 15th Ave SW #C",
-        "Subaddress": "Seattle, WA 98106",
-        "Photos": ["/static/images/PropertyPhotos/7557/1.jpg",],
-        "MLS": "2154618",
+        "Address": "4070 5th Ave NE",
+        "Subaddress": "Seattle, WA 98105",
+        "Photos": [], // Add relevant photo paths here
+        "MLS": "TBD",
+        "Beds": 3,
+        "Baths": 1.75,
+        "SqFt": "1,583 ft",
+        "MarketingRemarks": "Introducing this stunning new construction residence in the sought-after Wallingford neighborhood. The open-concept layout is enhanced by floor-to-ceiling windows, flooding the home with natural light, while high-end finishes including quartz countertops and stainless-steel appliances elevate the kitchen space. The tranquil owner’s suite offers a private retreat, featuring vaulted ceilings, a spacious ensuite bath with dual vanities, and a spa-inspired rainfall shower. Enjoy flexible living with an additional bonus room, ideal for a home office or lounge. Outdoors, enjoy the serenity of a fenced front yard while the rooftop deck provides panoramic views of Lake Union and the city skyline. This home includes TWO dedicated parking spots.",
+        "Price": "$949,950",
+        "Header": "/static/images/2024/4070.jpg",
+        "Media": "https://portal.onehome.com/en-US/share/1156079T68165",
+        "OtherAvailableHomes": 3, // Updated
+        "OtherPriceRange": "$759,950 - $949,950", // Updated
+        "OtherBedrooms": "2 - 3", // Updated
+        "OtherBathrooms": "1.25 - 1.75", // Updated
+        "OtherSqFt": "1,018 - 1,583 ft", // Updated
+    },
+    {
+        "Address": "1820 24th Ave S",
+        "Subaddress": "Seattle, WA 98144",
+        "Photos": [], // Add relevant photo paths here
+        "MLS": "TBD",
+        "Beds": 2,
+        "Baths": 1.75,
+        "SqFt": "1,181 ft",
+        "MarketingRemarks": "Introducing Valley View Vistas - a collection of seven superb new construction homes that epitomize modern living. In the kitchen, the sleek quartz countertops complement top-of-the-line stainless-steel appliances, creating a space that is both functional and elegant. The owner’s suite is a sanctuary of comfort, featuring a spacious walk-in closet, dual vanities, and a beautifully tiled shower. Every room comes with energy-efficient mini-splits, ensuring 24/7 comfort. Ascend to the rooftop deck to take in breathtaking views of the Seattle skyline and Mt. Rainier. This home is just a short stroll from the Seattle Children’s PlayGarden, Jimi Hendrix Park, and the soon-to-open Judkins Park Light Rail Station, offering unparalleled convenience.",
+        "Price": "$654,950",
+        "Header": "/static/images/2024/1820.jpg",
+        "Media": "https://portal.onehome.com/en-US/share/1156080a24863",
+        "OtherAvailableHomes": 6, // Updated
+        "OtherPriceRange": "$496,000 - $874,950", // Updated
+        "OtherBedrooms": "1 - 3", // Updated
+        "OtherBathrooms": ".75 - 1.75", // Updated
+        "OtherSqFt": "706 - 1,589 ft", // Updated
+    },
+    {
+        "Address": "1313 14th Ave S",
+        "Subaddress": "Seattle, WA 98144",
+        "Photos": [], // Add relevant photo paths here
+        "MLS": "TBD",
+        "Beds": 4,
+        "Baths": 2,
+        "SqFt": "2,100 ft",
+        "MarketingRemarks": "Call for more details!",
+        "Price": "$1,189,950",
+        "Header": "/static/images/2024/1313.jpg",
+        // ... existing code ...
+        "OtherAvailableHomes": 6, // Updated
+        "OtherPriceRange": "$989,950 - $1,199,950", // Updated
+        "OtherBedrooms": "3 - 5", // Updated
+        "OtherBathrooms": "1.75 - 2.25", // Updated
+        "OtherSqFt": "1,718 - 2,100 ft", // Updated
+    },
+    {
+        "Address": "3324 35th Ave S",
+        "Subaddress": "Seattle, WA 98144",
+        "Photos": [], // Add relevant photo paths here
+        "MLS": "TBD",
         "Beds": 2,
         "Baths": 1.5,
-        "SqFt": "870 SqFt",
-        "MarketingRemarks": "Experience the allure of this brand-new construction home, complete with convenient dedicated parking, an exclusive private patio, and an expansive yard. As you step inside, a warm and inviting living space seamlessly merges with a contemporary kitchen adorned with sleek quartz countertops, top-tier stainless steel appliances, and modern backsplash. The main floor hosts a stylish powder room and storage. Venture upstairs to discover two tranquil bedrooms and a luxurious four-piece bathroom, all bathed in an abundance of natural light that pours in through soaring ceilings. Situated in close proximity to the vibrant Alaska Junction, and a host of local amenities, this property offers the ideal fusion of modern living and urban convenience.",
-        "Price": "$519,000",
-        "Media": "https://login.focusedmediacollective.com/7557C15thAveSW",
-        "Header": "/static/images/PropertyPhotos/7557_header.png",
+        "SqFt": "825 ft",
+        "MarketingRemarks": "These stunning two-bedroom homes feature an open-concept design bathed in natural light. Enjoy sleek quartz countertops and high-end stainless steel appliances in the stylish kitchen. With a dedicated parking space, convenience is at your doorstep. Don't miss your chance to own these Mt. Baker gems.",
+        "Price": "Call for pricing.",
+        "Header": "/static/images/2024/3324.jpg",
+        // ... existing code ...
+        "OtherAvailableHomes": 4, // Updated
+        "OtherPriceRange": "Call for pricing", // Updated
+        "OtherBedrooms": "2", // Updated
+        "OtherBathrooms": "1.5", // Updated
+        "OtherSqFt": "825 ft", // Updated
     },
+    {
+        "Address": "4127 48th Ave S",
+        "Subaddress": "Seattle, WA 98118",
+        "Photos": [], // Add relevant photo paths here
+        "MLS": "TBD",
+        "Beds": "2",
+        "Baths": "1.5",
+        "SqFt": "Call for details",
+        "MarketingRemarks": "Welcome to your dream home featuring breathtaking lake views! These meticulously crafted homes offer a perfect blend of modern luxury and natural beauty. Indulge in the gourmet kitchen featuring sleek quartz countertops and top-of-the-line stainless steel appliances, perfect for culinary enthusiasts. Experience the perfect balance of comfort and style, all within walking distance of the Genesee Park and Lake Washington.",
+        "Price": "Call for pricing.",
+        "Header": "/static/images/2024/4127.jpg",
+        // ... existing code ...
+        "OtherAvailableHomes": 3, // Updated
+        "OtherPriceRange": "Call for pricing.", // Updated
+        "OtherBedrooms": "2 - 4", // Updated
+        "OtherBathrooms": "1.5 – 2.25", // Updated
+        "OtherSqFt": "1,101 – 2,333 ft", // Updated
+    },
+    // ... existing code ...
 ]
 
 export default listings;

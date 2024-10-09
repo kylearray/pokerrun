@@ -37,7 +37,7 @@ export default function Home() {
               <p
                 className={`${CeraCompact.className} font-bold text-2xl h-6 text-array-black`}
               >
-                October 28th, 2023
+                October 19th, 2024
               </p>
               <p
                 className={`${CeraCompact.className} font-bold text-lg pb-2 text-array-black`}
@@ -108,19 +108,19 @@ export default function Home() {
             <p
               className={`${CeraCompact.className} font-light text-white text-lg leading-6 text-center tracking-tight`}
             >
-              Join our Poker Run event on October 28th from 12:00pm to
+              Join our Poker Run event on October 19th from 12:00pm to
               3:00pm—it&#39;s easy and free! Just visit the open houses listed
               below, collect a playing card at each house, and aim to make the
               best five-card poker hand possible. The more houses you visit, the
               more cards you collect, increasing your chances of winning. By
-              5:00PM, email a picture of your best hand to{" "}
+              5:00PM on October 19th, email a picture of your best hand to{" "}
               <Link
                 className="underline font-regular"
                 href="mailto:office@arrayrealestate.com"
               >
                 office@arrayrealestate.com
               </Link>
-              , and if your hand ranks among the top three, you&#39;ll win a
+              , and if your hand ranks among the top four, you&#39;ll win a
               prize! It&#39;s a fun-filled day of exploring homes and playing
               poker. See you there!
             </p>
@@ -180,53 +180,20 @@ export default function Home() {
           </div>
 
           {/* Prizes Container */}
-          <div className="col-span-12 grid-cols-1 lg:grid-cols-3 grid justify-center items-center pt-10 place-items-center">
-            {/* Second Place */}
-            <div className="col-span-1 max-w-sm mx-6 lg:mt-16 lg:pt-auto pt-8 justify-center ">
-              <div className="w-full bg-[#ECF0FA] h-44 px-5 py-4 flex justify-center align-center">
-                <Image
-                  className=""
-                  src="/static/images/2ribbon.png"
-                  alt="Ribbon"
-                  width={140}
-                  height={140}
-                />
-              </div>
-              <div className="w-full bg-white h-44 px-5 py-4">
-                <p
-                  className={`${CeraPro.className} font-bold text-2xl text-[#B3B8C5] text-center`}
-                >
-                  Second Place:
-                </p>
-                <p
-                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-2 text-array-black text-center`}
-                >
-                  <strong>Seattle Kraken vs. New York Islanders Tickets</strong>
-                </p>
-                <p
-                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-1 text-array-black text-center`}
-                >
-                  Lower section seats on 11/16 @ 7:00pm
-                  <p className="pt-1 italic ">
-                    <p className="inline italic pt-2 pr-[.15rem]">$340</p>+
-                    value
-                  </p>
-                </p>
-              </div>
-            </div>
+          <div className="col-span-12 grid-cols-1 lg:grid-cols-4 grid min-h-[32rem] justify-center items-center pt-10 place-items-center">
 
             {/* First Place */}
-            <div className="col-span-1 mx-6 order-first lg:order-none max-w-sm">
-              <div className="w-full bg-[#FFE483] h-44 px-5 py-4 flex justify-center align-center">
+            <div className="col-span-1 max-w-sm mx-10 h-[33rem] pt-10 lg:mx-2 lg:pt-auto justify-center flex flex-col">
+              <div className="w-full bg-[#FFE483] h-44 px-5 flex justify-center align-center">
                 <Image
-                  className=""
+                  className="object-contain"
                   src="/static/images/1ribbon.png"
                   alt="Ribbon"
                   width={140}
                   height={140}
                 />
               </div>
-              <div className="w-full bg-white h-44 px-5 py-4">
+              <div className="w-full bg-white flex-1 px-5 py-4">
                 <p
                   className={`${CeraPro.className} font-bold text-2xl text-[#FFC700] text-center`}
                 >
@@ -236,33 +203,74 @@ export default function Home() {
                   className={`${CeraPro.className} font-regular text-lg leading-5 pt-3 text-array-black text-center`}
                 >
                   <strong>
-                    “Taste of Seattle” Package - Gift Cards from various
-                    top-rated Seattle eateries
+                    LET&#39;S GO KRAKEN
                   </strong>{" "}
                   <br />
                 </p>
                 <p
-                  className={`${CeraPro.className} font-regular italic text-lg leading-5 pt-3 text-array-black text-center`}
+                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-1 text-array-black text-center`}
                 >
-                  <p className="inline italic pr-[.15rem]">$600</p>+ value
+                  Two lower section seats to see our Seattle Kraken play on a mutually agreeable date plus a $100 Kraken team store gift card and $150 gift card to use at an Amazon &quot;Just Walk Out&quot; location.
+                  <p className="pt-2 italic ">
+                    <p className="inline italic pt-6 pr-[.15rem] ">$500</p>
+                    value
+                  </p>
                 </p>
               </div>
             </div>
 
-            {/* Third Place */}
-            <div className="col-span-1 mx-6 lg:mt-16 lg:pt-auto pt-8 max-w-sm">
-              <div className="w-full bg-[#FF9C72] h-44 px-5 py-4 flex justify-center align-center">
+            {/* Second Place */}
+            <div className="col-span-1 max-w-sm mx-10 h-[33rem] pt-10 lg:mx-2 lg:pt-auto justify-center flex flex-col">
+              <div className="w-full bg-[#ECF0FA] h-44 px-5 flex justify-center align-center">
                 <Image
-                  className=""
+                  className="object-contain"
+                  src="/static/images/2ribbon.png"
+                  alt="Ribbon"
+                  width={140}
+                  height={140}
+                />
+              </div>
+              <div className="w-full bg-white flex-1 px-5 py-4">
+                <p
+                  className={`${CeraPro.className} font-bold text-2xl text-[#B3B8C5] text-center`}
+                >
+                  Second Place:
+                </p>
+                <p
+                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-3 text-array-black text-center`}
+                >
+                  <strong>
+                    TECH TREASURE
+                  </strong>{" "}
+                  <br />
+                </p>
+                <p
+                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-1 text-array-black text-center`}
+                >
+                  Apple 10.2-Inch iPad 9th generation with Wi-Fi - 64GB - Space Gray
+                  <p className="pt-2 italic ">
+                    <p className="inline italic pt-6 pr-[.15rem] ">$330</p>
+                    value
+                  </p>
+                </p>
+              </div>
+            </div>
+
+
+            {/* Third Place */}
+            <div className="col-span-1 max-w-sm mx-10 h-[33rem] pt-10 lg:mx-2 lg:pt-auto justify-center flex flex-col">
+              <div className="w-full bg-[#FFC57C] h-44 px-5 flex justify-center align-center">
+                <Image
+                  className="object-contain"
                   src="/static/images/3ribbon.png"
                   alt="Ribbon"
                   width={140}
                   height={140}
                 />
               </div>
-              <div className="w-full bg-white h-44 px-5 py-4">
+              <div className="w-full bg-white flex-1 px-5 py-4">
                 <p
-                  className={`${CeraPro.className} font-bold text-2xl text-[#EB8C64] text-center`}
+                  className={`${CeraPro.className} font-bold text-2xl text-[#FFC57C] text-center`}
                 >
                   Third Place:
                 </p>
@@ -270,19 +278,64 @@ export default function Home() {
                   className={`${CeraPro.className} font-regular text-lg leading-5 pt-3 text-array-black text-center`}
                 >
                   <strong>
-                    2015 Sheridan Vineyard Block One Cabernet Sauvignon
-                  </strong>
+                    CIAO TO A NIGHT OUT
+                  </strong>{" "}
+                  <br />
                 </p>
                 <p
-                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-2 text-array-black text-center`}
+                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-1 text-array-black text-center`}
                 >
-                  Must be 21+ older to win
+                  Gift Card to Cantinetta in Wallingford. $200 gift card to this chic Tuscan restaurant serving dishes made with handmade pasta.
                   <p className="pt-2 italic ">
-                    <p className="inline italic pr-0">$150</p> value
+                    <p className="inline italic pt-6 pr-[.15rem] ">$200</p>
+                    value
                   </p>
                 </p>
               </div>
             </div>
+
+
+            {/* Fourth Place */}
+            <div className="col-span-1 max-w-sm mx-10 h-[33rem] pt-10 lg:mx-2 lg:pt-auto justify-center flex flex-col">
+              <div className="w-full bg-[#FF9C72] h-44 px-5 flex justify-center align-center">
+                <Image
+                  className="object-contain"
+                  src="/static/images/4ribbon.png"
+                  alt="Ribbon"
+                  width={140}
+                  height={140}
+                />
+              </div>
+              <div className="w-full bg-white flex-1 px-5 py-4">
+                <p
+                  className={`${CeraPro.className} font-bold text-2xl text-[#FF9C72] text-center`}
+                >
+                  Fourth Place:
+                </p>
+                <p
+                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-3 text-array-black text-center`}
+                >
+                  <strong>
+                    GARDEN GROW-GETTER
+                  </strong>{" "}
+                  <br />
+                </p>
+                <p
+                  className={`${CeraPro.className} font-regular text-lg leading-5 pt-1 text-array-black text-center`}
+                >
+                  Gift Card to Swansons Nursery. $100 gift card to Swansons Nursery - perfect for garden enthusiasts, offering a wide variety of plants, garden supplies, and expert advice.
+                  <p className="pt-2 italic ">
+                    <p className="inline italic pt-6 pr-[.15rem] ">$100</p>
+                    value
+                  </p>
+                </p>
+              </div>
+            </div>
+
+
+
+
+
           </div>
         </div>
       </div>
@@ -303,7 +356,7 @@ export default function Home() {
             <p
               className={`${CeraCompact.className} font-bold text-2xl h-6 text-array-black`}
             >
-              October 28th, 2023
+              October 19th, 2024
             </p>
             <p
               className={`${CeraCompact.className} font-bold text-lg pb-2 text-array-black`}
@@ -394,7 +447,7 @@ export default function Home() {
             <ul
               className={`${CeraCompact.className} w-full list-disc lg:px-0 px-2 list-inside font-light text-white text-base leading-6 text-center tracking-tight`}
             >
-              <li>Participants must be 21 years or older to play</li>
+              <li>Participants must be 18 years or older to play</li>
 
               <li>
                 Each participant is allowed only one entry and cannot share
@@ -409,7 +462,7 @@ export default function Home() {
               </li>
               <li>
                 A picture of the winning hand must be submitted to
-                office@arrayrealestate.com by 5:00 pm on October 28th to be
+                office@arrayrealestate.com by 5:00 pm on October 19th to be
                 eligible.
               </li>
 
