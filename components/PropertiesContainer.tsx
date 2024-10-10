@@ -137,10 +137,10 @@ function PropertiesContainer() {
                 Other homes available in this project:
               </p>
               <h3 className="font-light text-white text-xl lg:text-2xl">
-                Available Homes: 3
+                Available Homes: {item.OtherAvailableHomes}
               </h3>
               <h3 className="font-light text-white text-xl lg:text-2xl">
-                Price Range: $829,950 - $1,695,000
+                Price Range: {item.OtherPriceRange}
               </h3>
 
               {/* Icon container */}

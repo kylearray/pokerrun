@@ -90,7 +90,7 @@ function Footer() {
             ></Image>
           </a>
           <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
-            Copyright © 2023 Array Real Estate
+            Copyright © 2024 Array Real Estate
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <a href="https://www.facebook.com/arrayre" className="text-gray-500 hover:cursor-pointer">

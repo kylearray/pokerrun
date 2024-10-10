@@ -28,7 +28,7 @@ const listings = [
         "MarketingRemarks": "Welcome to this stunning modern new construction home. Step inside to discover light-filled living spaces, where the open-concept design seamlessly connects the living, dining, and kitchen areas, perfect for entertaining. The kitchen boasts top-of-the-line stainless steel appliances, a large center island with quartz countertops, custom cabinetry, and a butler’s pantry. Retreat to the luxurious owner’s suite, complete with an expansive custom walk-in closet and a spa-like ensuite bath featuring a freestanding soaking tub, dual vanities, and designer tile. Enjoy multiple entertainment spaces, including a spacious rooftop deck and a versatile lower-level bonus room. The high-quality custom finishes throughout make this a one-of-a-kind home.",
         "Price": "$1,489,950",
         "Header": "/static/images/2024/12015.jpg",
-        // ... existing code ...
+        "Media": "https://portal.onehome.com/en-US/share/1159967C36317",
         "OtherAvailableHomes": 6, // Updated
         "OtherPriceRange": "$839,950 - $1,489,950", // Updated
         "OtherBedrooms": "2 - 4", // Updated
@@ -48,7 +48,7 @@ const listings = [
         "Header": "/static/images/2024/1733.jpg",
         "Media": "https://portal.onehome.com/en-US/share/1156078q45270",
         "OtherAvailableHomes": 2, // Updated
-        "OtherPriceRange": "$744,950 - $829,950", // Updated
+        "OtherPriceRange": "$744,950 - $799,950", // Updated
         "OtherBedrooms": "2 - 3", // Updated
         "OtherBathrooms": "1.75", // Updated
         "OtherSqFt": "1,125 - 1,401 ft", // Updated
@@ -97,11 +97,10 @@ const listings = [
         "Beds": 4,
         "Baths": 2,
         "SqFt": "2,100 ft",
-        "MarketingRemarks": "Call for more details!",
+        "MarketingRemarks": "VIEWS for days! Introducing this stunning new construction collection of homes in the heart of Beacon Hill with breathtaking views of the city skylines and Cascade Mountains. This modern home boasts expansive windows that frame the panoramic cityscape, while natural light floods into spacious living areas. Choose between three thoughtfully designed floor plans, both offering generous layouts with luxurious bedrooms, a spa-like owner’s suite, and a sleek, contemporary kitchen. Take in the serene surroundings from the massive private rooftop terrace perched atop Beacon Hill. With high-end finishes and hardwood floors throughout, this home offers the perfect blend of style and comfort in one of Seattle’s most sought-after neighborhoods.",
         "Price": "$1,189,950",
-        "Header": "/static/images/2024/1313.JPG",
-        // ... existing code ...
-        "OtherAvailableHomes": 6, // Updated
+        "Header": "/static/images/2024/A1.jpg",
+        "OtherAvailableHomes": 8, // Updated
         "OtherPriceRange": "$989,950 - $1,199,950", // Updated
         "OtherBedrooms": "3 - 5", // Updated
         "OtherBathrooms": "1.75 - 2.25", // Updated
@@ -136,7 +135,6 @@ const listings = [
         "MarketingRemarks": "Welcome to your dream home featuring breathtaking lake views! These meticulously crafted homes offer a perfect blend of modern luxury and natural beauty. Indulge in the gourmet kitchen featuring sleek quartz countertops and top-of-the-line stainless steel appliances, perfect for culinary enthusiasts. Experience the perfect balance of comfort and style, all within walking distance of the Genesee Park and Lake Washington.",
         "Price": "Call for pricing.",
         "Header": "/static/images/2024/4127.JPG",
-        // ... existing code ...
         "OtherAvailableHomes": 3, // Updated
         "OtherPriceRange": "Call for pricing.", // Updated
         "OtherBedrooms": "2 - 4", // Updated
