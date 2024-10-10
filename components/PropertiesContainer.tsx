@@ -132,7 +132,7 @@ function PropertiesContainer() {
               </div>
 
               <p
-                className={`${CeraPro.className} font-bold italic opacity-90 text-white text-base text-xl lg:pr-5 pt-6 pb-1 leading-5`}
+                className={`${CeraPro.className} font-bold italic opacity-90 text-white text-base text-xl lg:text-2xl lg:pr-5 pt-6 pb-1 leading-5`}
               >
                 Other homes available in this project:
               </p>
